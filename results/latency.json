@@ -1,0 +1,122 @@
+{
+  "tiny-int8@1t": {
+    "model": "tiny-int8",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 102.8,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 0.689,
+    "decode_p95_s": 1.008,
+    "rtf_mean": 0.185
+  },
+  "tiny-int8@2t": {
+    "model": "tiny-int8",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 102.8,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 0.579,
+    "decode_p95_s": 0.706,
+    "rtf_mean": 0.149
+  },
+  "tiny-fp32@1t": {
+    "model": "tiny-fp32",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 152.2,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 0.824,
+    "decode_p95_s": 1.127,
+    "rtf_mean": 0.217
+  },
+  "tiny-fp32@2t": {
+    "model": "tiny-fp32",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 152.2,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 0.596,
+    "decode_p95_s": 0.821,
+    "rtf_mean": 0.156
+  },
+  "base-int8@1t": {
+    "model": "base-int8",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 159.8,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 1.324,
+    "decode_p95_s": 1.766,
+    "rtf_mean": 0.338
+  },
+  "base-int8@2t": {
+    "model": "base-int8",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 159.8,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 0.952,
+    "decode_p95_s": 1.222,
+    "rtf_mean": 0.254
+  },
+  "base-fp32@1t": {
+    "model": "base-fp32",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 291.6,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 1.678,
+    "decode_p95_s": 2.327,
+    "rtf_mean": 0.44
+  },
+  "base-fp32@2t": {
+    "model": "base-fp32",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 291.6,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 1.094,
+    "decode_p95_s": 1.485,
+    "rtf_mean": 0.289
+  },
+  "small-int8@1t": {
+    "model": "small-int8",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 374.7,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 4.191,
+    "decode_p95_s": 5.576,
+    "rtf_mean": 1.086
+  },
+  "small-int8@2t": {
+    "model": "small-int8",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 374.7,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 3.256,
+    "decode_p95_s": 4.157,
+    "rtf_mean": 0.834
+  },
+  "small-fp32@1t": {
+    "model": "small-fp32",
+    "threads": 1,
+    "n": 30,
+    "size_mb": 968.7,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 5.455,
+    "decode_p95_s": 7.308,
+    "rtf_mean": 1.427
+  },
+  "small-fp32@2t": {
+    "model": "small-fp32",
+    "threads": 2,
+    "n": 30,
+    "size_mb": 968.7,
+    "audio_mean_s": 3.97,
+    "decode_p50_s": 3.975,
+    "decode_p95_s": 5.227,
+    "rtf_mean": 1.006
+  }
+}

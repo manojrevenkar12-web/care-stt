@@ -1,0 +1,156 @@
+{"id": "n001", "voice": "de_DE-thorsten-medium", "hyp": "Bewohner klagt über Schmerzen im rechten Knie, bedarf es mit die Kationen oder angeboten.", "decode_s": 0.8292, "audio_s": 4.828}
+{"id": "n001", "voice": "de_DE-eva_k-x_low", "hyp": "Gewohner klagt überschmerzen im rechten Knie, bedarf es Medikationen, wurde angeboten.", "decode_s": 0.8644, "audio_s": 5.832}
+{"id": "n001", "voice": "de_DE-karlsson-low", "hyp": "Wohner klagt über Schmerzen im Rechten Knie, Bedarfsmedikation wurde angeboten.", "decode_s": 0.8291, "audio_s": 5.484}
+{"id": "n001", "voice": "de_DE-kerstin-low", "hyp": "Wir wohnen erklagt über Schmerzen im rechten Knie, bedaft mit die Kation wurde angeboten.", "decode_s": 0.7339, "audio_s": 5.268}
+{"id": "n002", "voice": "de_DE-thorsten-medium", "hyp": "Verband, Wechsel am linken und der Schenkel durchgeführt, Bundesauber und Rheizlös.", "decode_s": 0.679, "audio_s": 4.508}
+{"id": "n002", "voice": "de_DE-eva_k-x_low", "hyp": "Verbandwechsel am linken und der Schenkel durchgeführt, Runde sauber und Reizus.", "decode_s": 0.6697, "audio_s": 5.449}
+{"id": "n002", "voice": "de_DE-karlsson-low", "hyp": "Verbandwechsel, Lamplinken und der Schenkel durchgeführt, Wunde sauber und reizuluss.", "decode_s": 0.7057, "audio_s": 4.805}
+{"id": "n002", "voice": "de_DE-kerstin-low", "hyp": "Verbandwechsel am linken, Unterschengel durchgeführt, Wunde sauber und reizlos.", "decode_s": 0.7531, "audio_s": 5.084}
+{"id": "n006", "voice": "de_DE-thorsten-medium", "hyp": "Mobilisation mit dem Rollato auf dem Flur bei Wohner lief etwa 10 Minuten.", "decode_s": 0.5975, "audio_s": 4.735}
+{"id": "n006", "voice": "de_DE-eva_k-x_low", "hyp": "Mobilisation mit dem Rollert war auf dem Flur, Bewohner lief etwa 10 Minuten.", "decode_s": 0.6273, "audio_s": 5.516}
+{"id": "n006", "voice": "de_DE-karlsson-low", "hyp": "Mobilisation mit dem Rollator auf dem Flur bewoner-Lief etwa 10 Minuten.", "decode_s": 0.5543, "audio_s": 4.908}
+{"id": "n006", "voice": "de_DE-kerstin-low", "hyp": "Mobilisation mit dem Rollator auf dem Flur, Bewohner lief etwa 10 Minuten.", "decode_s": 0.5664, "audio_s": 5.005}
+{"id": "n008", "voice": "de_DE-thorsten-medium", "hyp": "Bewohner war nachts unruhig und disorientiert mehrfach aufgestanden.", "decode_s": 0.5509, "audio_s": 4.068}
+{"id": "n008", "voice": "de_DE-eva_k-x_low", "hyp": "Bewohner war nachts unruhig und disorientiert mehrfach aufgestanden.", "decode_s": 0.5416, "audio_s": 4.949}
+{"id": "n008", "voice": "de_DE-karlsson-low", "hyp": "Bewohner war nachts unruhig und disorientiert mirfach aufgestanden.", "decode_s": 0.5981, "audio_s": 4.969}
+{"id": "n008", "voice": "de_DE-kerstin-low", "hyp": "Bewohner war nachts unruhig und disorientiert mehrfach aufgestanden.", "decode_s": 0.5607, "audio_s": 4.101}
+{"id": "n010", "voice": "de_DE-thorsten-medium", "hyp": "Keine sichtbaren Verletzungen nach dem Sturz Haus-Asturde informiert.", "decode_s": 0.6175, "audio_s": 4.155}
+{"id": "n010", "voice": "de_DE-eva_k-x_low", "hyp": "Keine sichtbaren Verletzungen nach dem Sturz, Hausarzt wurde informiert.", "decode_s": 0.6092, "audio_s": 4.988}
+{"id": "n010", "voice": "de_DE-karlsson-low", "hyp": "Peine sichbaren Verletzungen nach dem Sturzhausarzt wurde informiert.", "decode_s": 0.5774, "audio_s": 4.188}
+{"id": "n010", "voice": "de_DE-kerstin-low", "hyp": "Keine sichbaren Verletzung nach dem Sturz Hausarzt wurde informiert.", "decode_s": 0.5335, "audio_s": 4.287}
+{"id": "n013", "voice": "de_DE-thorsten-medium", "hyp": "Bewohner hat seit drei Tagen keinen Spulgang verdacht auf Obstepation.", "decode_s": 0.4696, "audio_s": 4.073}
+{"id": "n013", "voice": "de_DE-eva_k-x_low", "hyp": "Bewohner hat seit drei Tagen keinen Stulgang, Verdacht auf Obstipation.", "decode_s": 0.5437, "audio_s": 4.988}
+{"id": "n013", "voice": "de_DE-karlsson-low", "hyp": "Bewohner hat seit 3 Tagen kein Stuhlrank verdacht auf Obstibation.", "decode_s": 0.5491, "audio_s": 4.725}
+{"id": "n013", "voice": "de_DE-kerstin-low", "hyp": "Bewohner hat seit 3 Tagen keinen Sturgang Verdacht auf Obstipation.", "decode_s": 0.5102, "audio_s": 4.956}
+{"id": "n016", "voice": "de_DE-thorsten-medium", "hyp": "Klugstörung bekannt getränke werden angedickt angeboten.", "decode_s": 0.5219, "audio_s": 3.335}
+{"id": "n016", "voice": "de_DE-eva_k-x_low", "hyp": "Schlubstörungen bekannt, die Trinke werden an die Dikt angeboten.", "decode_s": 0.5788, "audio_s": 4.219}
+{"id": "n016", "voice": "de_DE-karlsson-low", "hyp": "Schlugstörm bekannt getränke werden angedikt angeboten.", "decode_s": 0.4935, "audio_s": 3.984}
+{"id": "n016", "voice": "de_DE-kerstin-low", "hyp": "Tuchsschurren bekannt getränke werden angedickt angeboten.", "decode_s": 0.5912, "audio_s": 4.002}
+{"id": "n017", "voice": "de_DE-thorsten-medium", "hyp": "Du es nur bei Belastung Oberkörper hochgelagert.", "decode_s": 0.4672, "audio_s": 2.967}
+{"id": "n017", "voice": "de_DE-eva_k-x_low", "hyp": "Die nächsten Mal bei Belastung über Körper hochgelagert.", "decode_s": 0.4429, "audio_s": 3.5}
+{"id": "n017", "voice": "de_DE-karlsson-low", "hyp": "Distnure bei Belastung, Oberkörper hochgelagern.", "decode_s": 0.4919, "audio_s": 3.644}
+{"id": "n017", "voice": "de_DE-kerstin-low", "hyp": "Tiss nur bei Belastung über Körper hochgelagert.", "decode_s": 0.3851, "audio_s": 3.19}
+{"id": "n018", "voice": "de_DE-thorsten-medium", "hyp": "Neumony Profilaxe durchgeführt Atemibungen mit der Bewohnerin gemacht.", "decode_s": 0.5646, "audio_s": 4.265}
+{"id": "n018", "voice": "de_DE-eva_k-x_low", "hyp": "Neumoniprofilaxe durchgeführt, Attymübungen mit der Bewohnerin gemacht.", "decode_s": 0.7067, "audio_s": 4.84}
+{"id": "n018", "voice": "de_DE-karlsson-low", "hyp": "9. und die Profillachser durchgeführt, hatte Milbungen mit der Bewohnerin gemacht.", "decode_s": 0.6187, "audio_s": 4.604}
+{"id": "n018", "voice": "de_DE-kerstin-low", "hyp": "Normune Profilaxe durchgeführt, Atemülbungen mit der Bewohnerin gemacht.", "decode_s": 0.6405, "audio_s": 4.489}
+{"id": "n021", "voice": "de_DE-thorsten-medium", "hyp": "Ernährungshunde gespült, Lage kontrolliert.", "decode_s": 0.398, "audio_s": 2.685}
+{"id": "n021", "voice": "de_DE-eva_k-x_low", "hyp": "Ernährungswanne gespült, lagekontrolliert.", "decode_s": 0.4642, "audio_s": 3.228}
+{"id": "n021", "voice": "de_DE-karlsson-low", "hyp": "Entärumssonne gespült, Lage, kontrolliert.", "decode_s": 0.4293, "audio_s": 2.818}
+{"id": "n021", "voice": "de_DE-kerstin-low", "hyp": "In der Rung von der gespült, Lager kontrolliert.", "decode_s": 0.4665, "audio_s": 2.892}
+{"id": "n024", "voice": "de_DE-thorsten-medium", "hyp": "Kontrakturen Profilagse im Rahmen der Grundpflege durchgeführt.", "decode_s": 0.4933, "audio_s": 4.12}
+{"id": "n024", "voice": "de_DE-eva_k-x_low", "hyp": "Kontrakturen Profilax im Rahmen der Grundpflege durchgeführt.", "decode_s": 0.5784, "audio_s": 4.636}
+{"id": "n024", "voice": "de_DE-karlsson-low", "hyp": "Kontractor in Profilaxer im Rahmen der Grundpflege durchgeführt.", "decode_s": 0.5843, "audio_s": 4.284}
+{"id": "n024", "voice": "de_DE-kerstin-low", "hyp": "Kontraktoren Profilaxe im Rahmen der Grundpflege durchgeführt.", "decode_s": 0.5599, "audio_s": 3.948}
+{"id": "n027", "voice": "de_DE-thorsten-medium", "hyp": "Vog der hat angerufen und wird an Wochenende zu Besuch kommen.", "decode_s": 0.4523, "audio_s": 3.446}
+{"id": "n027", "voice": "de_DE-eva_k-x_low", "hyp": "Tochter anberufen und wird am Wochenende zu Besuch kommen.", "decode_s": 0.4652, "audio_s": 3.772}
+{"id": "n027", "voice": "de_DE-karlsson-low", "hyp": "Tochter hat angerufen und wird am Wochenende zu Besuch kommen.", "decode_s": 0.4973, "audio_s": 3.684}
+{"id": "n027", "voice": "de_DE-kerstin-low", "hyp": "Torst er hat einen Beruf und wird am Wochenende zu besucht kommen.", "decode_s": 0.45, "audio_s": 3.756}
+{"id": "n030", "voice": "de_DE-thorsten-medium", "hyp": "Mit Formien zum Frühstück und zum Abendesen verabreicht.", "decode_s": 0.4984, "audio_s": 3.52}
+{"id": "n030", "voice": "de_DE-eva_k-x_low", "hyp": "Mit Formien zum Frühstück und zum Abend essen verabbreicht.", "decode_s": 0.4824, "audio_s": 4.044}
+{"id": "n030", "voice": "de_DE-karlsson-low", "hyp": "Mit von mir zum Frühstück und zum Abendessen verabreifen.", "decode_s": 0.4707, "audio_s": 3.654}
+{"id": "n030", "voice": "de_DE-kerstin-low", "hyp": "Mit vom Hinz um Frühstück und zum Abendessen verabreicht.", "decode_s": 0.5031, "audio_s": 3.372}
+{"id": "n032", "voice": "de_DE-thorsten-medium", "hyp": "Kuraise mit am Morgen bewulgerin muss häufig zu teulette.", "decode_s": 0.4864, "audio_s": 3.426}
+{"id": "n032", "voice": "de_DE-eva_k-x_low", "hyp": "Tora sind miet am Morgen, Bewohnerin muss häufig zu tollete.", "decode_s": 0.4855, "audio_s": 3.726}
+{"id": "n032", "voice": "de_DE-karlsson-low", "hyp": "Tora Senita morgen bewohnerin muss häufig zu tal litte.", "decode_s": 0.4517, "audio_s": 3.548}
+{"id": "n032", "voice": "de_DE-kerstin-low", "hyp": "Tora sie mit am Morgen bewunderen muss häufig zur Tue-Lette.", "decode_s": 0.5133, "audio_s": 3.846}
+{"id": "n034", "voice": "de_DE-thorsten-medium", "hyp": "Melpe runter nachgegeben, bewundere Schleft seit dem Röck.", "decode_s": 0.4877, "audio_s": 3.377}
+{"id": "n034", "voice": "de_DE-eva_k-x_low", "hyp": "Melkau und zur Nacht gegebenen Bewohner schläfzeit dem ruhig.", "decode_s": 0.4869, "audio_s": 3.887}
+{"id": "n034", "voice": "de_DE-karlsson-low", "hyp": "Melbe und zur Nacht gegeben Bewohner schleft seit dem ruhig.", "decode_s": 0.4362, "audio_s": 3.996}
+{"id": "n034", "voice": "de_DE-kerstin-low", "hyp": "Metter uns danach gegeben, bewunderschleft seit dem ruhig.", "decode_s": 0.4364, "audio_s": 3.703}
+{"id": "n037", "voice": "de_DE-thorsten-medium", "hyp": "Pramadultropfen bei starken Schmerzen nach Rücksprache gegeben.", "decode_s": 0.4952, "audio_s": 3.644}
+{"id": "n037", "voice": "de_DE-eva_k-x_low", "hyp": "Trauma durch Tropfen bei startenschmerzen nach Utsprache gegeben.", "decode_s": 0.51, "audio_s": 4.417}
+{"id": "n037", "voice": "de_DE-karlsson-low", "hyp": "Trammadult hopfen bei starten, schmerzen nach Rücksprache gegeben.", "decode_s": 0.5608, "audio_s": 4.134}
+{"id": "n037", "voice": "de_DE-kerstin-low", "hyp": "Tamadot Tropfen, weil starken Schmerzen nach Rücksprache gegeben.", "decode_s": 0.5177, "audio_s": 3.762}
+{"id": "n043", "voice": "de_DE-thorsten-medium", "hyp": "Am Mox-Sig-Linweg ein Hanwex-Infekt für sieben Tage angeord", "decode_s": 0.6075, "audio_s": 4.041}
+{"id": "n043", "voice": "de_DE-eva_k-x_low", "hyp": "Am Maxikillin wegen Hahn wird es in Fekt für 7 Tage angordnet.", "decode_s": 0.5628, "audio_s": 4.199}
+{"id": "n043", "voice": "de_DE-karlsson-low", "hyp": "Am OZIKI-Lin wie ein Hambix infect für sieben Tage angordnen.", "decode_s": 0.5879, "audio_s": 4.252}
+{"id": "n043", "voice": "de_DE-kerstin-low", "hyp": "Am Moxite-Lin wegen Hanweg sind für sieben Tage angeordnett.", "decode_s": 0.552, "audio_s": 4.026}
+{"id": "n052", "voice": "de_DE-thorsten-medium", "hyp": "Blora-Zip am einmalig bestarke Unruhe gegeben.", "decode_s": 0.4714, "audio_s": 3.088}
+{"id": "n052", "voice": "de_DE-eva_k-x_low", "hyp": "Nur hat's beim einmal ich bei Stacker unruhe gegeben.", "decode_s": 0.41, "audio_s": 3.58}
+{"id": "n052", "voice": "de_DE-karlsson-low", "hyp": "Blora-Zip-Am einmalig bei Starker unruhe gegeben.", "decode_s": 0.5506, "audio_s": 3.564}
+{"id": "n052", "voice": "de_DE-kerstin-low", "hyp": "Nur RAC-Pam einmal ich bei Stacker unruhe gegeben.", "decode_s": 0.4334, "audio_s": 3.107}
+{"id": "n053", "voice": "de_DE-thorsten-medium", "hyp": "Forrozimizusätzlich wegen Ödemen angeordnet.", "decode_s": 0.4449, "audio_s": 3.103}
+{"id": "n053", "voice": "de_DE-eva_k-x_low", "hyp": "Fugeose mit zusätzlich wegen wir demen angeordnet.", "decode_s": 0.407, "audio_s": 3.388}
+{"id": "n053", "voice": "de_DE-karlsson-low", "hyp": "Burso-Sinie zusätzlich wegen demen angeordnet.", "decode_s": 0.4373, "audio_s": 3.356}
+{"id": "n053", "voice": "de_DE-kerstin-low", "hyp": "Vorosemit zusätzlich wegen dem angeordnet.", "decode_s": 0.3543, "audio_s": 3.306}
+{"id": "n055", "voice": "de_DE-thorsten-medium", "hyp": "Bewohner hat das Mittagessen vollständige Gekissen. Bewohner hat", "decode_s": 0.4736, "audio_s": 2.912}
+{"id": "n055", "voice": "de_DE-eva_k-x_low", "hyp": "Bewohner hat das Mittagessen vollständig gegessen.", "decode_s": 0.3668, "audio_s": 3.038}
+{"id": "n055", "voice": "de_DE-karlsson-low", "hyp": "Bewohner hat das Metergessen vollständig gegessen.", "decode_s": 0.5477, "audio_s": 2.876}
+{"id": "n055", "voice": "de_DE-kerstin-low", "hyp": "Bewohner hat das Mittagessen vollständig gegessen.", "decode_s": 0.4151, "audio_s": 3.224}
+{"id": "n059", "voice": "de_DE-thorsten-medium", "hyp": "Haare gewaschen und filmen Ligeschnitten.", "decode_s": 0.4177, "audio_s": 2.462}
+{"id": "n059", "voice": "de_DE-eva_k-x_low", "hyp": "Karre gewaschen und Fingernege geschnitten.", "decode_s": 0.4007, "audio_s": 3.052}
+{"id": "n059", "voice": "de_DE-karlsson-low", "hyp": "Harel gewaschen und finanäge geschnitten.", "decode_s": 0.5163, "audio_s": 2.94}
+{"id": "n059", "voice": "de_DE-kerstin-low", "hyp": "Hare Gewassung und Fingernegel geschnitten.", "decode_s": 0.3847, "audio_s": 3.02}
+{"id": "n065", "voice": "de_DE-thorsten-medium", "hyp": "Rühtung in der Fährse rechts, fährse wird freigel", "decode_s": 0.4906, "audio_s": 3.063}
+{"id": "n065", "voice": "de_DE-eva_k-x_low", "hyp": "Ruhetum an der Fase rechts, felsir wird freige laget.", "decode_s": 0.5796, "audio_s": 3.833}
+{"id": "n065", "voice": "de_DE-karlsson-low", "hyp": "Rötung an der Färse rechts, färse wird frei gelagert.", "decode_s": 0.5324, "audio_s": 3.395}
+{"id": "n065", "voice": "de_DE-kerstin-low", "hyp": "Rhythm an der Fährse rechts, fährse wird freigelagert.", "decode_s": 0.558, "audio_s": 3.298}
+{"id": "n069", "voice": "de_DE-thorsten-medium", "hyp": "Die Soorientierung zur Person, Bewohner erkennt die Pflegekraft nicht.", "decode_s": 0.6077, "audio_s": 4.12}
+{"id": "n069", "voice": "de_DE-eva_k-x_low", "hyp": "Die Soorientierung zu Person, Bewohner erkennt die Pflegekraft nicht.", "decode_s": 0.5452, "audio_s": 5.036}
+{"id": "n069", "voice": "de_DE-karlsson-low", "hyp": "Die Orientierung zur Personbewohner erkennt die Pflegekraft nie.", "decode_s": 0.5243, "audio_s": 4.404}
+{"id": "n069", "voice": "de_DE-kerstin-low", "hyp": "Die Surrentierung zur Person bewohner erkennt die Pflegekraft nicht.", "decode_s": 0.4744, "audio_s": 4.54}
+{"id": "v004", "voice": "de_DE-thorsten-medium", "hyp": "Lutterrug 145 zu 103,116.", "decode_s": 0.4393, "audio_s": 4.753}
+{"id": "v004", "voice": "de_DE-eva_k-x_low", "hyp": "Blutdruck 145-133 Puls-106", "decode_s": 0.4712, "audio_s": 5.088}
+{"id": "v004", "voice": "de_DE-karlsson-low", "hyp": "Blut erug 145 zu 143, puls 116", "decode_s": 0.4582, "audio_s": 5.007}
+{"id": "v004", "voice": "de_DE-kerstin-low", "hyp": "Bluetooth 145 zu 1.13, putz ein 1006", "decode_s": 0.4488, "audio_s": 5.004}
+{"id": "v006", "voice": "de_DE-thorsten-medium", "hyp": "Lügtruck 132 zu 55.100v.", "decode_s": 0.4079, "audio_s": 4.684}
+{"id": "v006", "voice": "de_DE-eva_k-x_low", "hyp": "Lurtdruck 102.75.1.104.", "decode_s": 0.4848, "audio_s": 5.212}
+{"id": "v006", "voice": "de_DE-karlsson-low", "hyp": "Lodog 112 und 30 zu 75,144.", "decode_s": 0.4334, "audio_s": 5.246}
+{"id": "v006", "voice": "de_DE-kerstin-low", "hyp": "Lurtrob 132 zu 75,000, gut 114.", "decode_s": 0.4823, "audio_s": 4.57}
+{"id": "v008", "voice": "de_DE-thorsten-medium", "hyp": "Bluttruck 119-7-70-1580.", "decode_s": 0.4632, "audio_s": 4.669}
+{"id": "v008", "voice": "de_DE-eva_k-x_low", "hyp": "Blut durch 119,7 und 70,85 und 80.", "decode_s": 0.4698, "audio_s": 5.16}
+{"id": "v008", "voice": "de_DE-karlsson-low", "hyp": "Blu-Durg 119 zu 7 und 70 puls 85.", "decode_s": 0.4939, "audio_s": 4.933}
+{"id": "v008", "voice": "de_DE-kerstin-low", "hyp": "Duttrog 109 zu 7,70, 85.", "decode_s": 0.4244, "audio_s": 4.78}
+{"id": "v010", "voice": "de_DE-thorsten-medium", "hyp": "Blutdruck 1881 zu 85, 1858.", "decode_s": 0.4452, "audio_s": 5.035}
+{"id": "v010", "voice": "de_DE-eva_k-x_low", "hyp": "wird durch 1881 zu 85, 48, 48 und 50.", "decode_s": 0.4894, "audio_s": 5.912}
+{"id": "v010", "voice": "de_DE-karlsson-low", "hyp": "Luddddddddddddddddddddddddddddddddd", "decode_s": 0.7661, "audio_s": 5.595}
+{"id": "v010", "voice": "de_DE-kerstin-low", "hyp": "Lurtrok 1851,58,58,58,58,", "decode_s": 0.4335, "audio_s": 4.662}
+{"id": "v013", "voice": "de_DE-thorsten-medium", "hyp": "Temperatur 7 und 30,5° sauerstoffsetting und 80%", "decode_s": 0.4885, "audio_s": 5.699}
+{"id": "v013", "voice": "de_DE-eva_k-x_low", "hyp": "Kempere Tour 7-30,5° sauerstoffsetting 18-80%", "decode_s": 0.5533, "audio_s": 6.002}
+{"id": "v013", "voice": "de_DE-karlsson-low", "hyp": "Temperatur 7-30,5° sauerstoffsetting 18-80%", "decode_s": 0.616, "audio_s": 6.684}
+{"id": "v013", "voice": "de_DE-kerstin-low", "hyp": "Temperatur 37,5° sauerstoffsetting 18,80%.", "decode_s": 0.4995, "audio_s": 5.586}
+{"id": "v014", "voice": "de_DE-thorsten-medium", "hyp": "Temperatur 39°C, Sauerstoffsettingung 6 und 90%", "decode_s": 0.5745, "audio_s": 4.932}
+{"id": "v014", "voice": "de_DE-eva_k-x_low", "hyp": "Temperature 39 und 30° sauerstoffsettigung 96.9%.", "decode_s": 0.5286, "audio_s": 5.772}
+{"id": "v014", "voice": "de_DE-karlsson-low", "hyp": "Temperature 39°C, Sauer-Staussettingung, 6.90%", "decode_s": 0.6078, "audio_s": 5.604}
+{"id": "v014", "voice": "de_DE-kerstin-low", "hyp": "Temperaturnoil in 30° sauerstoffsettingung 6 und 90%", "decode_s": 0.5214, "audio_s": 5.031}
+{"id": "v021", "voice": "de_DE-thorsten-medium", "hyp": "Du zu Kaffee mit der Gästen 169 und 164 Fertz in allen halten in so linke Spritzt.", "decode_s": 0.7094, "audio_s": 5.176}
+{"id": "v021", "voice": "de_DE-eva_k-x_low", "hyp": "Glutzucker vor dem Mittagessen 109 und 60 14 Einheiten in so linengespritzt.", "decode_s": 0.7445, "audio_s": 6.364}
+{"id": "v021", "voice": "de_DE-karlsson-low", "hyp": "Würzucker vor dem Mittagessen 169 und 164 14 Einheiten in Solin gespritzt.", "decode_s": 0.6925, "audio_s": 6.158}
+{"id": "v021", "voice": "de_DE-kerstin-low", "hyp": "Lutzukau vor dem Mittagessen 169,14 Einheiten in Sulin-Gespritz.", "decode_s": 0.7045, "audio_s": 6.076}
+{"id": "v022", "voice": "de_DE-thorsten-medium", "hyp": "Lutzucker vor der Mittagessen 280 5 Einheiten in so linke Spritzt.", "decode_s": 0.6673, "audio_s": 5.49}
+{"id": "v022", "voice": "de_DE-eva_k-x_low", "hyp": "Blut sogar vor dem Mittagessen 822, 5 Einheiten in solen gespritzt.", "decode_s": 0.679, "audio_s": 6.584}
+{"id": "v022", "voice": "de_DE-karlsson-low", "hyp": "Blutzucker vor dem Mittagessen 280-5 Einheiten in so Lin gespritzt.", "decode_s": 0.6386, "audio_s": 6.037}
+{"id": "v022", "voice": "de_DE-kerstin-low", "hyp": "Durchzug auf vor dem Mittagessen 282 5 Einheiten in so Lien gespritzt.", "decode_s": 0.7319, "audio_s": 5.846}
+{"id": "v025", "voice": "de_DE-thorsten-medium", "hyp": "Blutzucker vor dem Mittagessen 339.10. Einheiten in so wie ein Gesprett.", "decode_s": 0.6595, "audio_s": 5.248}
+{"id": "v025", "voice": "de_DE-eva_k-x_low", "hyp": "Lutzucker vor dem Mittagessen 339 Zehn einheiten in soling gespritzt.", "decode_s": 0.6589, "audio_s": 5.99}
+{"id": "v025", "voice": "de_DE-karlsson-low", "hyp": "Blutzucker vor dem Mittagessen 309 und 3010 Einheiten in Solin gespritzt.", "decode_s": 0.7296, "audio_s": 6.104}
+{"id": "v025", "voice": "de_DE-kerstin-low", "hyp": "Blurzucker vor dem Mittag es 139 und 131 in so den Gespritzt.", "decode_s": 0.6311, "audio_s": 5.736}
+{"id": "v027", "voice": "de_DE-thorsten-medium", "hyp": "Blutzucker vor dem Mittagessen 333,4 Einhalten in so linke Spritz.", "decode_s": 0.6485, "audio_s": 5.362}
+{"id": "v027", "voice": "de_DE-eva_k-x_low", "hyp": "Blutzucker vor dem Mittagessen 300,33, 4 Einheiten in so Lingespritzt.", "decode_s": 0.6908, "audio_s": 6.136}
+{"id": "v027", "voice": "de_DE-karlsson-low", "hyp": "Würzucker vor dem Mittagessen 334 Einheiten in so lehnen gespritzt.", "decode_s": 0.6493, "audio_s": 6.306}
+{"id": "v027", "voice": "de_DE-kerstin-low", "hyp": "Du zu kaufen vor dem Mittagessen 333-4 Einheiten in so den Gespritzt.", "decode_s": 0.6707, "audio_s": 5.774}
+{"id": "v030", "voice": "de_DE-thorsten-medium", "hyp": "Atem Frequenz 18 pro Minute, hols 29, nuttraug 123,26,86", "decode_s": 0.7246, "audio_s": 7.193}
+{"id": "v030", "voice": "de_DE-eva_k-x_low", "hyp": "Atem Frequenz 18.0. 2.90. Blut. 1.23.26.", "decode_s": 0.7616, "audio_s": 8.009}
+{"id": "v030", "voice": "de_DE-karlsson-low", "hyp": "Atem Frequenz 18.0. Puls 2.90 Lutero 123.86.", "decode_s": 0.7376, "audio_s": 7.698}
+{"id": "v030", "voice": "de_DE-kerstin-low", "hyp": "Atemberiq 2018 pro Minute, wurde 92 Blutrop, 123 und 2626.", "decode_s": 0.6783, "audio_s": 7.511}
+{"id": "v031", "voice": "de_DE-thorsten-medium", "hyp": "Atemfrequenz 21-Prominute, Paulz 77, Blutdruck 111 und 3024 und 60.", "decode_s": 0.8374, "audio_s": 7.747}
+{"id": "v031", "voice": "de_DE-eva_k-x_low", "hyp": "Atem verkleinen es 21.00 Uhr, puls 7 und 70 Blügtung 131 zu 4 und 60.", "decode_s": 0.7616, "audio_s": 7.901}
+{"id": "v031", "voice": "de_DE-karlsson-low", "hyp": "Atem Frequence 21.00/7.70 Blutdruck 134.64", "decode_s": 0.6538, "audio_s": 7.63}
+{"id": "v031", "voice": "de_DE-kerstin-low", "hyp": "Ertemberg, wenn es 21 pro Minute, 47 und 71, 31, 31, 24.", "decode_s": 0.6681, "audio_s": 7.59}
+{"id": "v033", "voice": "de_DE-thorsten-medium", "hyp": "Atem Frequenz 12-Prominute, Poles 8-8-8-Lutrug 119-74-70", "decode_s": 0.8421, "audio_s": 6.923}
+{"id": "v033", "voice": "de_DE-eva_k-x_low", "hyp": "Atem Frequenz 12 pro Minute, Puls 8 und 80 glutdddddddddddddddddddddddddd", "decode_s": 1.1306, "audio_s": 7.125}
+{"id": "v033", "voice": "de_DE-karlsson-low", "hyp": "Atmfrequenz 12 pro Minute, pulse 8 und 80, ludruck 119 so 74.", "decode_s": 0.6666, "audio_s": 6.891}
+{"id": "v033", "voice": "de_DE-kerstin-low", "hyp": "Atterfrequenz 12 Pro Minute, Puts 8 und haft sich Blutrop 119 zu 4 und 70.", "decode_s": 0.7574, "audio_s": 6.766}
+{"id": "v037", "voice": "de_DE-thorsten-medium", "hyp": "Fokus mit 100 Milligramm und 22 Uhr gegeben.", "decode_s": 0.4088, "audio_s": 4.061}
+{"id": "v037", "voice": "de_DE-eva_k-x_low", "hyp": "Frohe sind mit 100 mg um 22 Uhr gegeben.", "decode_s": 0.4019, "audio_s": 4.396}
+{"id": "v037", "voice": "de_DE-karlsson-low", "hyp": "Prosemid 100 mg und 22 Uhr gegeben.", "decode_s": 0.4292, "audio_s": 4.732}
+{"id": "v037", "voice": "de_DE-kerstin-low", "hyp": "Für uns sind mit 100.000 Gramm um 22 Uhr gegeben.", "decode_s": 0.4271, "audio_s": 3.987}
+{"id": "v045", "voice": "de_DE-thorsten-medium", "hyp": "Kantes Art. 50 Milligramm und 20 Uhr gegeben.", "decode_s": 0.3812, "audio_s": 3.365}
+{"id": "v045", "voice": "de_DE-eva_k-x_low", "hyp": "Kande Sattan 50 mg/20/20/10/20/20/20/20/20", "decode_s": 0.6431, "audio_s": 3.948}
+{"id": "v045", "voice": "de_DE-karlsson-low", "hyp": "Dann das Atean 50 mg/20 Uhr gegeben.", "decode_s": 0.3978, "audio_s": 3.91}
+{"id": "v045", "voice": "de_DE-kerstin-low", "hyp": "Kante Satan 50 mg/s, um 20 Uhr gegeben.", "decode_s": 0.4367, "audio_s": 3.446}
+{"id": "v048", "voice": "de_DE-thorsten-medium", "hyp": "Melperons 220 Uhr gegeben.", "decode_s": 0.2948, "audio_s": 3.795}
+{"id": "v048", "voice": "de_DE-eva_k-x_low", "hyp": "Melta und 200 mg/2020 Urgegeben", "decode_s": 0.3952, "audio_s": 4.296}
+{"id": "v048", "voice": "de_DE-karlsson-low", "hyp": "Melberon 200 Mirigran und 22 Uhr gegeben", "decode_s": 0.4302, "audio_s": 4.796}
+{"id": "v048", "voice": "de_DE-kerstin-low", "hyp": "Nettor rund 200mg und 22 Uhr gegeben.", "decode_s": 0.4007, "audio_s": 3.931}

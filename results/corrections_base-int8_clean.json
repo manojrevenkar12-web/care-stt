@@ -1,0 +1,831 @@
+[
+  {
+    "id": "n003",
+    "voice": "de_DE-ramona-low",
+    "ref": "Am Steißbein zeigt sich eine leichte Hautrötung, Dekubitusprophylaxe wird intensiviert.",
+    "hyp": "Am Steißweinsagt sich eine leichter Hautrüttung dekobitosprofelachse bedintensiviert",
+    "corrected": "Am Steißweinsagt sich eine leichter Hautrötung Dekubitusprophylaxe bedintensiviert",
+    "changes": [
+      [
+        "Hautrüttung",
+        "Hautrötung",
+        0.909
+      ],
+      [
+        "dekobitosprofelachse",
+        "Dekubitusprophylaxe",
+        0.8
+      ]
+    ]
+  },
+  {
+    "id": "n003",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Am Steißbein zeigt sich eine leichte Hautrötung, Dekubitusprophylaxe wird intensiviert.",
+    "hyp": "Am Steisbein zeigt sich eine leichte Hautritung dekubite Sprophylaxe wird intensiviert.",
+    "corrected": "Am Steisbein zeigt sich eine leichte Hautrötung Dekubitusprophylaxe wird intensiviert.",
+    "changes": [
+      [
+        "Hautritung",
+        "Hautrötung",
+        0.95
+      ],
+      [
+        "dekubite Sprophylaxe",
+        "Dekubitusprophylaxe",
+        0.974
+      ]
+    ]
+  },
+  {
+    "id": "n005",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Bewohnerin hat beim Frühstück wenig getrunken, Trinkprotokoll wird weitergeführt.",
+    "hyp": "Bewohnerin hat beim Frühstück wenig getrunken Stringprotokoll wird weitergeführt.",
+    "corrected": "Bewohnerin hat beim Frühstück wenig getrunken Trinkprotokoll wird weitergeführt.",
+    "changes": [
+      [
+        "Stringprotokoll",
+        "Trinkprotokoll",
+        0.883
+      ]
+    ]
+  },
+  {
+    "id": "n007",
+    "voice": "de_DE-ramona-low",
+    "ref": "Inkontinenzmaterial gewechselt, Haut intakt.",
+    "hyp": "in Kontinensmaterial gewächstes Kalt hinter.",
+    "corrected": "in Inkontinenzmaterial gewächstes Kalt hinter.",
+    "changes": [
+      [
+        "Kontinensmaterial",
+        "Inkontinenzmaterial",
+        0.838
+      ]
+    ]
+  },
+  {
+    "id": "n007",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Inkontinenzmaterial gewechselt, Haut intakt.",
+    "hyp": "In Kontinens Material gewechselt auch in Tart.",
+    "corrected": "In Inkontinenzmaterial gewechselt auch in Tart.",
+    "changes": [
+      [
+        "Kontinens Material",
+        "Inkontinenzmaterial",
+        0.838
+      ]
+    ]
+  },
+  {
+    "id": "n009",
+    "voice": "de_DE-ramona-low",
+    "ref": "Sturzprotokoll ausgefüllt, Bewohnerin wurde neben dem Bett auf dem Boden gefunden.",
+    "hyp": "Stutsprotokoll ausgefüllt bewohnern, wo der Nieden in Bett auf dem Boden gefunden.",
+    "corrected": "Sturzprotokoll ausgefüllt bewohnern, wo der Nieden in Bett auf dem Boden gefunden.",
+    "changes": [
+      [
+        "Stutsprotokoll",
+        "Sturzprotokoll",
+        0.873
+      ]
+    ]
+  },
+  {
+    "id": "n011",
+    "voice": "de_DE-ramona-low",
+    "ref": "Kompressionsstrümpfe am Morgen angezogen, Beine leicht geschwollen.",
+    "hyp": "Kompressionsstunfer am Morgen angezogen war in der Leicht geschwollen.",
+    "corrected": "Kompressionsstrümpfe am Morgen angezogen war in der Leicht geschwollen.",
+    "changes": [
+      [
+        "Kompressionsstunfer",
+        "Kompressionsstrümpfe",
+        0.75
+      ]
+    ]
+  },
+  {
+    "id": "n011",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Kompressionsstrümpfe am Morgen angezogen, Beine leicht geschwollen.",
+    "hyp": "Kompressionsströmpfe am Morgen angezogen, bei ne leicht geschwollen.",
+    "corrected": "Kompressionsstrümpfe am Morgen angezogen, bei ne leicht geschwollen.",
+    "changes": [
+      [
+        "Kompressionsströmpfe",
+        "Kompressionsstrümpfe",
+        0.975
+      ]
+    ]
+  },
+  {
+    "id": "n015",
+    "voice": "de_DE-ramona-low",
+    "ref": "Bewohnerin hat nach dem Mittagessen einmal erbrochen.",
+    "hyp": "Bewohnerin hat nach dem Mittagessen einweil erbrochen.",
+    "corrected": "Bewohnerin hat nach dem Mittagessen einweil Erbrechen.",
+    "changes": [
+      [
+        "erbrochen.",
+        "Erbrechen",
+        0.944
+      ]
+    ]
+  },
+  {
+    "id": "n015",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Bewohnerin hat nach dem Mittagessen einmal erbrochen.",
+    "hyp": "Bewohnerin hat nach dem Mittagessen einmal erbrochen.",
+    "corrected": "Bewohnerin hat nach dem Mittagessen einmal Erbrechen.",
+    "changes": [
+      [
+        "erbrochen.",
+        "Erbrechen",
+        0.944
+      ]
+    ]
+  },
+  {
+    "id": "n019",
+    "voice": "de_DE-ramona-low",
+    "ref": "Thromboseprophylaxe mit Heparin nach Plan.",
+    "hyp": "Tombos, die Auflöchse mit Ebarin nach Plan.",
+    "corrected": "Tombos, die Auflöchse mit Heparin nach Plan.",
+    "changes": [
+      [
+        "Ebarin",
+        "Heparin",
+        0.857
+      ]
+    ]
+  },
+  {
+    "id": "n019",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Thromboseprophylaxe mit Heparin nach Plan.",
+    "hyp": "Rombosepofilax mit Hiparin nach Plan",
+    "corrected": "Rombosepofilax mit Heparin nach Plan",
+    "changes": [
+      [
+        "Hiparin",
+        "Heparin",
+        0.929
+      ]
+    ]
+  },
+  {
+    "id": "n020",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Blasenkatheter gespült, Urin klar.",
+    "hyp": "Blasen katteter gespült vor ihnen klar.",
+    "corrected": "Blasenkatheter gespült vor ihnen klar.",
+    "changes": [
+      [
+        "Blasen katteter",
+        "Blasenkatheter",
+        0.964
+      ]
+    ]
+  },
+  {
+    "id": "n022",
+    "voice": "de_DE-ramona-low",
+    "ref": "Wundversorgung mit Hydrogel und Schaumverband.",
+    "hyp": "Rundversorgung mit Hydrogel- und Schaumverband.",
+    "corrected": "Wundversorgung mit Hydrogel- und Schaumverband.",
+    "changes": [
+      [
+        "Rundversorgung",
+        "Wundversorgung",
+        0.914
+      ]
+    ]
+  },
+  {
+    "id": "n022",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Wundversorgung mit Hydrogel und Schaumverband.",
+    "hyp": "Wunfer Sorgung mit Hydrogel und Schamverband.",
+    "corrected": "Wundversorgung mit Hydrogel und Schaumverband.",
+    "changes": [
+      [
+        "Wunfer Sorgung",
+        "Wundversorgung",
+        0.879
+      ],
+      [
+        "Schamverband.",
+        "Schaumverband",
+        0.962
+      ]
+    ]
+  },
+  {
+    "id": "n023",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Braden-Skala erneut erhoben, Risiko unverändert hoch.",
+    "hyp": "Ratenskala erneut erhoben Risiko und verändert hoch.",
+    "corrected": "Braden-Skala erneut erhoben Risiko und verändert hoch.",
+    "changes": [
+      [
+        "Ratenskala",
+        "Braden-Skala",
+        0.838
+      ]
+    ]
+  },
+  {
+    "id": "n025",
+    "voice": "de_DE-ramona-low",
+    "ref": "Physiotherapie war heute Vormittag da, Gangtraining durchgeführt.",
+    "hyp": "Physioterapie war heute vormittag da dann trennen durchgeführt.",
+    "corrected": "Physiotherapie war heute vormittag da dann trennen durchgeführt.",
+    "changes": [
+      [
+        "Physioterapie",
+        "Physiotherapie",
+        0.964
+      ]
+    ]
+  },
+  {
+    "id": "n026",
+    "voice": "de_DE-ramona-low",
+    "ref": "Bewohnerin wirkt müde, Verdacht auf Exsikkose, Bilanzierung angeordnet.",
+    "hyp": "Bewohnerin wirkt müde Verdacht auf exekose Blanzierung angeordnet.",
+    "corrected": "Bewohnerin wirkt müde Verdacht auf Exsikkose Bilanzierung angeordnet.",
+    "changes": [
+      [
+        "exekose",
+        "Exsikkose",
+        0.833
+      ],
+      [
+        "Blanzierung",
+        "Bilanzierung",
+        0.958
+      ]
+    ]
+  },
+  {
+    "id": "n026",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Bewohnerin wirkt müde, Verdacht auf Exsikkose, Bilanzierung angeordnet.",
+    "hyp": "Bewohnerin wird Nüde verdacht auf Exekose die Lanzierung angeaut mit.",
+    "corrected": "Bewohnerin wird Nüde verdacht auf Exsikkose die Bilanzierung angeaut mit.",
+    "changes": [
+      [
+        "Exekose",
+        "Exsikkose",
+        0.833
+      ],
+      [
+        "Lanzierung",
+        "Bilanzierung",
+        0.845
+      ]
+    ]
+  },
+  {
+    "id": "n029",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Ramipril und Bisoprolol wie verordnet am Morgen gegeben.",
+    "hyp": "Rami Pril und Bisepoloel, die Verordnete am Morgen gegeben.",
+    "corrected": "Ramipril und Bisoprolol, die Verordnete am Morgen gegeben.",
+    "changes": [
+      [
+        "Rami Pril",
+        "Ramipril",
+        1.0
+      ],
+      [
+        "Bisepoloel,",
+        "Bisoprolol",
+        0.767
+      ]
+    ]
+  },
+  {
+    "id": "n033",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Novaminsulfon als Bedarfsmedikation bei Schmerzen gegeben.",
+    "hyp": "Novamin sulfon als Bedarfsmedikation bei Schmerzen gegeben.",
+    "corrected": "Novaminsulfon Bedarfsmedikation bei Schmerzen gegeben.",
+    "changes": [
+      [
+        "Novamin sulfon",
+        "Novaminsulfon",
+        1.0
+      ],
+      [
+        "als Bedarfsmedikation",
+        "Bedarfsmedikation",
+        0.81
+      ]
+    ]
+  },
+  {
+    "id": "n038",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Fentanyl Pflaster gewechselt, altes Pflaster entsorgt.",
+    "hyp": "Fenta nüb flaster Gewechselts altes Pflaster entsorgt.",
+    "corrected": "Fentanyl flaster Gewechselts altes Pflaster entsorgt.",
+    "changes": [
+      [
+        "Fenta nüb",
+        "Fentanyl",
+        0.775
+      ]
+    ]
+  },
+  {
+    "id": "n039",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Prednisolon wird laut Hausarzt schrittweise reduziert.",
+    "hyp": "Retnisolon wird laut Hausarzt schrittweise reduziert.",
+    "corrected": "Prednisolon wird laut Hausarzt schrittweise reduziert.",
+    "changes": [
+      [
+        "Retnisolon",
+        "Prednisolon",
+        0.838
+      ]
+    ]
+  },
+  {
+    "id": "n040",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Apixaban morgens und abends, keine Blutungszeichen.",
+    "hyp": "Apigsaban morgens und abends keine Blutungszeichen.",
+    "corrected": "Apixaban morgens und abends keine Blutungszeichen.",
+    "changes": [
+      [
+        "Apigsaban",
+        "Apixaban",
+        0.889
+      ]
+    ]
+  },
+  {
+    "id": "n041",
+    "voice": "de_DE-ramona-low",
+    "ref": "Levodopa pünktlich gegeben, Bewohner zittert heute weniger.",
+    "hyp": "Lehe Wodopa pöcklich gegeben, worum hat sie da heute weniger?",
+    "corrected": "Levodopa pöcklich gegeben, worum hat sie da heute weniger?",
+    "changes": [
+      [
+        "Lehe Wodopa",
+        "Levodopa",
+        0.85
+      ]
+    ]
+  },
+  {
+    "id": "n041",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Levodopa pünktlich gegeben, Bewohner zittert heute weniger.",
+    "hyp": "Lehwo Dopa pünktlich gegeben, bewohner zittert heute weniger.",
+    "corrected": "Levodopa pünktlich gegeben, bewohner zittert heute weniger.",
+    "changes": [
+      [
+        "Lehwo Dopa",
+        "Levodopa",
+        0.889
+      ]
+    ]
+  },
+  {
+    "id": "n042",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Donepezil am Abend gegeben, Bewohnerin war heute zeitlich orientiert.",
+    "hyp": "Donner Beziel am Abend gegeben Bewohnerin war heute zeitlich orientiert.",
+    "corrected": "Donepezil am Abend gegeben Bewohnerin war heute zeitlich orientiert.",
+    "changes": [
+      [
+        "Donner Beziel",
+        "Donepezil",
+        0.75
+      ]
+    ]
+  },
+  {
+    "id": "n045",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Lactulose Sirup nach dem Frühstück gegeben.",
+    "hyp": "Laktulose Serup nach dem Frühstück gegeben.",
+    "corrected": "Lactulose Serup nach dem Frühstück gegeben.",
+    "changes": [
+      [
+        "Laktulose",
+        "Lactulose",
+        0.844
+      ]
+    ]
+  },
+  {
+    "id": "n047",
+    "voice": "de_DE-ramona-low",
+    "ref": "Salbutamol Spray bei Atemnot angewendet, danach Besserung.",
+    "hyp": "Sabutammel spray bei alte Mod anm gewendet danach Besserung.",
+    "corrected": "Salbutamol spray bei alte Mod anm gewendet danach Besserung.",
+    "changes": [
+      [
+        "Sabutammel",
+        "Salbutamol",
+        0.767
+      ]
+    ]
+  },
+  {
+    "id": "n047",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Salbutamol Spray bei Atemnot angewendet, danach Besserung.",
+    "hyp": "Salbutamult spray bei Athernote angewendet danach Besserung.",
+    "corrected": "Salbutamol spray bei Athernote angewendet danach Besserung.",
+    "changes": [
+      [
+        "Salbutamult",
+        "Salbutamol",
+        0.838
+      ]
+    ]
+  },
+  {
+    "id": "n048",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Levothyroxin nüchtern eine halbe Stunde vor dem Frühstück gegeben.",
+    "hyp": "Levo Tyroxin nicht an eine halbe Stunde vor dem Frühstück gegeben.",
+    "corrected": "Levothyroxin nicht an eine halbe Stunde vor dem Frühstück gegeben.",
+    "changes": [
+      [
+        "Levo Tyroxin",
+        "Levothyroxin",
+        0.958
+      ]
+    ]
+  },
+  {
+    "id": "n051",
+    "voice": "de_DE-ramona-low",
+    "ref": "Candesartan wurde wegen niedrigem Blutdruck pausiert.",
+    "hyp": "Kandesartan wurde wir in niedrigen Mutdruck pausiert.",
+    "corrected": "Candesartan wurde wir in niedrigen Mutdruck pausiert.",
+    "changes": [
+      [
+        "Kandesartan",
+        "Candesartan",
+        0.955
+      ]
+    ]
+  },
+  {
+    "id": "n051",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Candesartan wurde wegen niedrigem Blutdruck pausiert.",
+    "hyp": "Kandesartan wurde wegen niedrigen Blutdruck pausiert.",
+    "corrected": "Candesartan wurde wegen niedrigen Blutdruck pausiert.",
+    "changes": [
+      [
+        "Kandesartan",
+        "Candesartan",
+        0.955
+      ]
+    ]
+  },
+  {
+    "id": "n054",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Nitrospray bei Brustschmerzen angewendet, Beschwerden nach fünf Minuten rückläufig.",
+    "hyp": "Nittrospray bei Prustschmerzen angewendet zu schwäden nach 5 Minuten rüppläufig.",
+    "corrected": "Nitrospray bei Prustschmerzen angewendet zu schwäden nach 5 Minuten rüppläufig.",
+    "changes": [
+      [
+        "Nittrospray",
+        "Nitrospray",
+        0.955
+      ]
+    ]
+  },
+  {
+    "id": "v000",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Blutdruck 139 zu 69, Puls 53.",
+    "hyp": "Die Lutdruck 139 zu 9 und 60 Muss III und 50.",
+    "corrected": "Die Blutdruck 139 zu 9 und 60 Muss III und 50.",
+    "changes": [
+      [
+        "Lutdruck",
+        "Blutdruck",
+        0.844
+      ]
+    ]
+  },
+  {
+    "id": "v009",
+    "voice": "de_DE-ramona-low",
+    "ref": "Blutdruck 133 zu 61, Puls 59.",
+    "hyp": "Buhdruck 133 zu 31,9,50",
+    "corrected": "Blutdruck 133 zu 31,9,50",
+    "changes": [
+      [
+        "Buhdruck",
+        "Blutdruck",
+        0.789
+      ]
+    ]
+  },
+  {
+    "id": "v009",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Blutdruck 133 zu 61, Puls 59.",
+    "hyp": "Lutdruck 133 und 30 zu 1 und 69 und 50.",
+    "corrected": "Blutdruck 133 und 30 zu 1 und 69 und 50.",
+    "changes": [
+      [
+        "Lutdruck",
+        "Blutdruck",
+        0.844
+      ]
+    ]
+  },
+  {
+    "id": "v012",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Temperatur 36,9 Grad, Sauerstoffsättigung 85 Prozent.",
+    "hyp": "Temperatur 36,9°C, Sauerstoff-Settigung 85%",
+    "corrected": "Temperatur 36,9°C, Sauerstoffsättigung 85%",
+    "changes": [
+      [
+        "Sauerstoff-Settigung",
+        "Sauerstoffsättigung",
+        0.974
+      ]
+    ]
+  },
+  {
+    "id": "v015",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Temperatur 37,9 Grad, Sauerstoffsättigung 85 Prozent.",
+    "hyp": "Temperatur 37,9°C, Sauerstoffsetigung 85%",
+    "corrected": "Temperatur 37,9°C, Sauerstoffsättigung 85%",
+    "changes": [
+      [
+        "Sauerstoffsetigung",
+        "Sauerstoffsättigung",
+        0.947
+      ]
+    ]
+  },
+  {
+    "id": "v018",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Temperatur 38,8 Grad, Sauerstoffsättigung 94 Prozent.",
+    "hyp": "Temperatur 38,8 Rath, Sauerstor-Sertigung 94%",
+    "corrected": "Temperatur 38,8 Rath, Sauerstoffsättigung 94%",
+    "changes": [
+      [
+        "Sauerstor-Sertigung",
+        "Sauerstoffsättigung",
+        0.804
+      ]
+    ]
+  },
+  {
+    "id": "v019",
+    "voice": "de_DE-ramona-low",
+    "ref": "Temperatur 38,8 Grad, Sauerstoffsättigung 93 Prozent.",
+    "hyp": "Der Bratto 38,8° Sauerstoff-Settigung 93%",
+    "corrected": "Der Bratto 38,8° Sauerstoffsättigung 93%",
+    "changes": [
+      [
+        "Sauerstoff-Settigung",
+        "Sauerstoffsättigung",
+        0.974
+      ]
+    ]
+  },
+  {
+    "id": "v019",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Temperatur 38,8 Grad, Sauerstoffsättigung 93 Prozent.",
+    "hyp": "Temperatur 38,8° Sauerstoff-Settigung 93%",
+    "corrected": "Temperatur 38,8° Sauerstoffsättigung 93%",
+    "changes": [
+      [
+        "Sauerstoff-Settigung",
+        "Sauerstoffsättigung",
+        0.974
+      ]
+    ]
+  },
+  {
+    "id": "v020",
+    "voice": "de_DE-ramona-low",
+    "ref": "Blutzucker vor dem Mittagessen 275, 18 Einheiten Insulin gespritzt.",
+    "hyp": "Lohzucker vor dem Mittagessen 275 18 Einheiten insolien gestützt.",
+    "corrected": "Blutzucker vor dem Mittagessen 275 18 Einheiten Insulin gestützt.",
+    "changes": [
+      [
+        "Lohzucker",
+        "Blutzucker",
+        0.75
+      ],
+      [
+        "insolien",
+        "Insulin",
+        0.875
+      ]
+    ]
+  },
+  {
+    "id": "v020",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Blutzucker vor dem Mittagessen 275, 18 Einheiten Insulin gespritzt.",
+    "hyp": "Blutzucker vor dem Mitteilisten 270/18 Einheiten insolien gespritzt.",
+    "corrected": "Blutzucker vor dem Mitteilisten 270/18 Einheiten Insulin gespritzt.",
+    "changes": [
+      [
+        "insolien",
+        "Insulin",
+        0.875
+      ]
+    ]
+  },
+  {
+    "id": "v024",
+    "voice": "de_DE-ramona-low",
+    "ref": "Blutzucker vor dem Mittagessen 311, 17 Einheiten Insulin gespritzt.",
+    "hyp": "Blodzucker vor dem Mittagessen 3,517 Einheiten insolien bespritzt.",
+    "corrected": "Blutzucker vor dem Mittagessen 3,517 Einheiten Insulin bespritzt.",
+    "changes": [
+      [
+        "Blodzucker",
+        "Blutzucker",
+        0.9
+      ],
+      [
+        "insolien",
+        "Insulin",
+        0.875
+      ]
+    ]
+  },
+  {
+    "id": "v024",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Blutzucker vor dem Mittagessen 311, 17 Einheiten Insulin gespritzt.",
+    "hyp": "Hülyzucker vor dem Mittagessen 311-17 Einheiten insolien gespritzt.",
+    "corrected": "Hülyzucker vor dem Mittagessen 311-17 Einheiten Insulin gespritzt.",
+    "changes": [
+      [
+        "insolien",
+        "Insulin",
+        0.875
+      ]
+    ]
+  },
+  {
+    "id": "v028",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Atemfrequenz 25 pro Minute, Puls 64, Blutdruck 169 zu 87.",
+    "hyp": "Atemfrequenz 25 Pro Minute-Uls 4 und 60 Lutdruck 169 zu 87",
+    "corrected": "Atemfrequenz 25 Pro Minute-Uls 4 und 60 Blutdruck 169 zu 87",
+    "changes": [
+      [
+        "Lutdruck",
+        "Blutdruck",
+        0.844
+      ]
+    ]
+  },
+  {
+    "id": "v029",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Atemfrequenz 27 pro Minute, Puls 91, Blutdruck 134 zu 95.",
+    "hyp": "Atemfrequenz 27 Pro Minute Pulse 91 Lutdruck 194 zu 95",
+    "corrected": "Atemfrequenz 27 Pro Minute Pulse 91 Blutdruck 194 zu 95",
+    "changes": [
+      [
+        "Lutdruck",
+        "Blutdruck",
+        0.844
+      ]
+    ]
+  },
+  {
+    "id": "v032",
+    "voice": "de_DE-ramona-low",
+    "ref": "Atemfrequenz 21 pro Minute, Puls 72, Blutdruck 133 zu 63.",
+    "hyp": "Artefrequenz 21,22 Bd. 133 zu 63",
+    "corrected": "Atemfrequenz 21,22 Bd. 133 zu 63",
+    "changes": [
+      [
+        "Artefrequenz",
+        "Atemfrequenz",
+        0.792
+      ]
+    ]
+  },
+  {
+    "id": "v034",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Ibuprofen 25 Milligramm um zweiundzwanzig Uhr gegeben.",
+    "hyp": "Ebu Proven 25 mg um 22 Uhr gegeben.",
+    "corrected": "Ibuprofen 25 mg um 22 Uhr gegeben.",
+    "changes": [
+      [
+        "Ebu Proven",
+        "Ibuprofen",
+        0.889
+      ]
+    ]
+  },
+  {
+    "id": "v038",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Torasemid 400 Milligramm um zwanzig Uhr gegeben.",
+    "hyp": "Thorasemid 400 Milligramm und 20 Uhr gegeben.",
+    "corrected": "Torasemid 400 Milligramm und 20 Uhr gegeben.",
+    "changes": [
+      [
+        "Thorasemid",
+        "Torasemid",
+        0.95
+      ]
+    ]
+  },
+  {
+    "id": "v039",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Metformin 100 Milligramm um acht Uhr gegeben.",
+    "hyp": "Matt Formin 100 Milligramm um 8 Uhr gegeben.",
+    "corrected": "Metformin 100 Milligramm um 8 Uhr gegeben.",
+    "changes": [
+      [
+        "Matt Formin",
+        "Metformin",
+        0.9
+      ]
+    ]
+  },
+  {
+    "id": "v042",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Amlodipin 200 Milligramm um zwanzig Uhr gegeben.",
+    "hyp": "Amlodipa 200mg um 20 Uhr gegeben.",
+    "corrected": "Amlodipin 200mg um 20 Uhr gegeben.",
+    "changes": [
+      [
+        "Amlodipa",
+        "Amlodipin",
+        0.806
+      ]
+    ]
+  },
+  {
+    "id": "v044",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Ramipril 75 Milligramm um zwanzig Uhr gegeben.",
+    "hyp": "Ramepril 75 mg um 20 Uhr gegeben.",
+    "corrected": "Ramipril 75 mg um 20 Uhr gegeben.",
+    "changes": [
+      [
+        "Ramepril",
+        "Ramipril",
+        0.938
+      ]
+    ]
+  },
+  {
+    "id": "v047",
+    "voice": "de_DE-pavoque-low",
+    "ref": "Amlodipin 40 Milligramm um sieben Uhr gegeben.",
+    "hyp": "Amlodipa 40mg um 7 Uhr gegeben.",
+    "corrected": "Amlodipin 40mg um 7 Uhr gegeben.",
+    "changes": [
+      [
+        "Amlodipa",
+        "Amlodipin",
+        0.806
+      ]
+    ]
+  },
+  {
+    "id": "v049",
+    "voice": "de_DE-ramona-low",
+    "ref": "Enoxaparin 50 Milligramm um zwanzig Uhr gegeben.",
+    "hyp": "ein Oxa-Parin 50mg und 20 Uhr gegeben.",
+    "corrected": "ein Enoxaparin 50mg und 20 Uhr gegeben.",
+    "changes": [
+      [
+        "Oxa-Parin",
+        "Enoxaparin",
+        0.829
+      ]
+    ]
+  }
+]

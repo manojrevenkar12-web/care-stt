@@ -1,0 +1,2033 @@
+{
+  "threshold_tuning": {
+    "chosen": 0.75,
+    "target_precision": 0.95,
+    "dev_rows": 624,
+    "sweep": [
+      {
+        "threshold": 0.6,
+        "good": 276,
+        "bad": 50,
+        "precision": 0.8466
+      },
+      {
+        "threshold": 0.625,
+        "good": 258,
+        "bad": 32,
+        "precision": 0.8897
+      },
+      {
+        "threshold": 0.65,
+        "good": 240,
+        "bad": 23,
+        "precision": 0.9125
+      },
+      {
+        "threshold": 0.675,
+        "good": 228,
+        "bad": 19,
+        "precision": 0.9231
+      },
+      {
+        "threshold": 0.7,
+        "good": 209,
+        "bad": 18,
+        "precision": 0.9207
+      },
+      {
+        "threshold": 0.725,
+        "good": 196,
+        "bad": 12,
+        "precision": 0.9423
+      },
+      {
+        "threshold": 0.75,
+        "good": 190,
+        "bad": 1,
+        "precision": 0.9948
+      },
+      {
+        "threshold": 0.775,
+        "good": 173,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.8,
+        "good": 149,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.825,
+        "good": 125,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.85,
+        "good": 103,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.875,
+        "good": 75,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.9,
+        "good": 51,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.925,
+        "good": 36,
+        "bad": 0,
+        "precision": 1.0
+      },
+      {
+        "threshold": 0.95,
+        "good": 19,
+        "bad": 0,
+        "precision": 1.0
+      }
+    ]
+  },
+  "test": {
+    "base-fp32": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.5086,
+          "cer": 0.1822,
+          "term_recall": 0.2087,
+          "n_terms": 206,
+          "number_recall": 0.6429,
+          "number_utt_acc": 0.5278,
+          "number_halluc": 0.3988,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.4383,
+          "cer": 0.1661,
+          "term_recall": 0.5243,
+          "n_terms": 206,
+          "number_recall": 0.6429,
+          "number_utt_acc": 0.5278,
+          "number_halluc": 0.3988,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 70,
+          "good": 65,
+          "bad": 5,
+          "precision": 0.9286
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 20,
+          "wrong_silent": 3,
+          "wrong_flagged": 19,
+          "missed": 96,
+          "correct_flagged": 0,
+          "utts_needing_review": 23,
+          "utts": 68,
+          "field_accuracy": 0.1449,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8636,
+          "review_rate": 0.3382
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 42,
+          "wrong_silent": 5,
+          "wrong_flagged": 13,
+          "missed": 78,
+          "correct_flagged": 1,
+          "utts_needing_review": 21,
+          "utts": 68,
+          "field_accuracy": 0.3043,
+          "silent_error_rate": 0.0362,
+          "wrong_caught_share": 0.7222,
+          "review_rate": 0.3088
+        },
+        "latency": {
+          "decode_p50_s": 1.06,
+          "decode_p95_s": 1.53,
+          "rtf_mean": 0.259,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.4594,
+            0.5627
+          ],
+          "term_recall": [
+            0.1596,
+            0.2603
+          ],
+          "term_recall_corrected": [
+            0.4585,
+            0.5962
+          ],
+          "term_recall_gain": [
+            0.2534,
+            0.378
+          ]
+        }
+      }
+    },
+    "base-int8": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.5189,
+          "cer": 0.1942,
+          "term_recall": 0.1845,
+          "n_terms": 206,
+          "number_recall": 0.7024,
+          "number_utt_acc": 0.6111,
+          "number_halluc": 0.256,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.452,
+          "cer": 0.1804,
+          "term_recall": 0.4854,
+          "n_terms": 206,
+          "number_recall": 0.7024,
+          "number_utt_acc": 0.6111,
+          "number_halluc": 0.256,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 65,
+          "good": 62,
+          "bad": 3,
+          "precision": 0.9538
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 18,
+          "wrong_silent": 3,
+          "wrong_flagged": 18,
+          "missed": 99,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.1304,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8571,
+          "review_rate": 0.3235
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 40,
+          "wrong_silent": 6,
+          "wrong_flagged": 13,
+          "missed": 79,
+          "correct_flagged": 0,
+          "utts_needing_review": 17,
+          "utts": 68,
+          "field_accuracy": 0.2899,
+          "silent_error_rate": 0.0435,
+          "wrong_caught_share": 0.6842,
+          "review_rate": 0.25
+        },
+        "latency": {
+          "decode_p50_s": 0.882,
+          "decode_p95_s": 1.262,
+          "rtf_mean": 0.216,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.4711,
+            0.5685
+          ],
+          "term_recall": [
+            0.1354,
+            0.2379
+          ],
+          "term_recall_corrected": [
+            0.4135,
+            0.5598
+          ],
+          "term_recall_gain": [
+            0.2386,
+            0.3702
+          ]
+        }
+      },
+      "babble_10": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6698,
+          "cer": 0.2851,
+          "term_recall": 0.1359,
+          "n_terms": 206,
+          "number_recall": 0.6607,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.2917,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.6304,
+          "cer": 0.2775,
+          "term_recall": 0.3058,
+          "n_terms": 206,
+          "number_recall": 0.6607,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.2917,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 37,
+          "good": 35,
+          "bad": 2,
+          "precision": 0.9459
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 17,
+          "wrong_silent": 2,
+          "wrong_flagged": 14,
+          "missed": 105,
+          "correct_flagged": 0,
+          "utts_needing_review": 17,
+          "utts": 68,
+          "field_accuracy": 0.1232,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.875,
+          "review_rate": 0.25
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 29,
+          "wrong_silent": 3,
+          "wrong_flagged": 10,
+          "missed": 96,
+          "correct_flagged": 2,
+          "utts_needing_review": 14,
+          "utts": 68,
+          "field_accuracy": 0.2101,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.7692,
+          "review_rate": 0.2059
+        },
+        "latency": {
+          "decode_p50_s": 0.886,
+          "decode_p95_s": 1.205,
+          "rtf_mean": 0.215,
+          "audio_mean_s": 4.34
+        }
+      },
+      "babble_5": {
+        "raw": {
+          "n": 162,
+          "wer": 0.8928,
+          "cer": 0.4248,
+          "term_recall": 0.0534,
+          "n_terms": 206,
+          "number_recall": 0.4702,
+          "number_utt_acc": 0.2917,
+          "number_halluc": 0.4762,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.8714,
+          "cer": 0.4205,
+          "term_recall": 0.1602,
+          "n_terms": 206,
+          "number_recall": 0.4702,
+          "number_utt_acc": 0.2917,
+          "number_halluc": 0.4762,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 24,
+          "good": 22,
+          "bad": 2,
+          "precision": 0.9167
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 8,
+          "wrong_silent": 1,
+          "wrong_flagged": 13,
+          "missed": 116,
+          "correct_flagged": 0,
+          "utts_needing_review": 13,
+          "utts": 68,
+          "field_accuracy": 0.058,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.9286,
+          "review_rate": 0.1912
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 13,
+          "wrong_silent": 2,
+          "wrong_flagged": 13,
+          "missed": 110,
+          "correct_flagged": 0,
+          "utts_needing_review": 15,
+          "utts": 68,
+          "field_accuracy": 0.0942,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8667,
+          "review_rate": 0.2206
+        },
+        "latency": {
+          "decode_p50_s": 0.965,
+          "decode_p95_s": 2.577,
+          "rtf_mean": 0.288,
+          "audio_mean_s": 4.34
+        }
+      },
+      "reverb": {
+        "raw": {
+          "n": 162,
+          "wer": 0.8199,
+          "cer": 0.392,
+          "term_recall": 0.0874,
+          "n_terms": 206,
+          "number_recall": 0.5238,
+          "number_utt_acc": 0.4028,
+          "number_halluc": 0.375,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.789,
+          "cer": 0.3861,
+          "term_recall": 0.2087,
+          "n_terms": 206,
+          "number_recall": 0.5238,
+          "number_utt_acc": 0.4028,
+          "number_halluc": 0.375,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 30,
+          "good": 25,
+          "bad": 5,
+          "precision": 0.8333
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 9,
+          "wrong_silent": 2,
+          "wrong_flagged": 11,
+          "missed": 116,
+          "correct_flagged": 0,
+          "utts_needing_review": 11,
+          "utts": 68,
+          "field_accuracy": 0.0652,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8462,
+          "review_rate": 0.1618
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 19,
+          "wrong_silent": 3,
+          "wrong_flagged": 10,
+          "missed": 106,
+          "correct_flagged": 0,
+          "utts_needing_review": 13,
+          "utts": 68,
+          "field_accuracy": 0.1377,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.7692,
+          "review_rate": 0.1912
+        },
+        "latency": {
+          "decode_p50_s": 0.881,
+          "decode_p95_s": 1.399,
+          "rtf_mean": 0.223,
+          "audio_mean_s": 4.34
+        }
+      },
+      "telephone": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6647,
+          "cer": 0.2921,
+          "term_recall": 0.1068,
+          "n_terms": 206,
+          "number_recall": 0.5833,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.3571,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.6209,
+          "cer": 0.2812,
+          "term_recall": 0.3058,
+          "n_terms": 206,
+          "number_recall": 0.5833,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.3571,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 44,
+          "good": 41,
+          "bad": 3,
+          "precision": 0.9318
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 15,
+          "wrong_silent": 2,
+          "wrong_flagged": 15,
+          "missed": 106,
+          "correct_flagged": 1,
+          "utts_needing_review": 18,
+          "utts": 68,
+          "field_accuracy": 0.1087,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8824,
+          "review_rate": 0.2647
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 25,
+          "wrong_silent": 5,
+          "wrong_flagged": 12,
+          "missed": 96,
+          "correct_flagged": 1,
+          "utts_needing_review": 18,
+          "utts": 68,
+          "field_accuracy": 0.1812,
+          "silent_error_rate": 0.0362,
+          "wrong_caught_share": 0.7059,
+          "review_rate": 0.2647
+        },
+        "latency": {
+          "decode_p50_s": 0.835,
+          "decode_p95_s": 1.229,
+          "rtf_mean": 0.205,
+          "audio_mean_s": 4.34
+        }
+      },
+      "opus_8k": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6226,
+          "cer": 0.2468,
+          "term_recall": 0.1359,
+          "n_terms": 206,
+          "number_recall": 0.619,
+          "number_utt_acc": 0.5,
+          "number_halluc": 0.3512,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.5695,
+          "cer": 0.2355,
+          "term_recall": 0.3786,
+          "n_terms": 206,
+          "number_recall": 0.619,
+          "number_utt_acc": 0.5,
+          "number_halluc": 0.3512,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 53,
+          "good": 50,
+          "bad": 3,
+          "precision": 0.9434
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 13,
+          "wrong_silent": 3,
+          "wrong_flagged": 20,
+          "missed": 102,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.0942,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8696,
+          "review_rate": 0.3235
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 26,
+          "wrong_silent": 5,
+          "wrong_flagged": 16,
+          "missed": 91,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.1884,
+          "silent_error_rate": 0.0362,
+          "wrong_caught_share": 0.7619,
+          "review_rate": 0.3235
+        },
+        "latency": {
+          "decode_p50_s": 0.861,
+          "decode_p95_s": 1.175,
+          "rtf_mean": 0.208,
+          "audio_mean_s": 4.34
+        }
+      },
+      "combined": {
+        "raw": {
+          "n": 162,
+          "wer": 1.6115,
+          "cer": 0.9147,
+          "term_recall": 0.0,
+          "n_terms": 206,
+          "number_recall": 0.0714,
+          "number_utt_acc": 0.0139,
+          "number_halluc": 0.881,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 1.6115,
+          "cer": 0.9147,
+          "term_recall": 0.0,
+          "n_terms": 206,
+          "number_recall": 0.0714,
+          "number_utt_acc": 0.0139,
+          "number_halluc": 0.881,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 1,
+          "good": 0,
+          "bad": 1,
+          "precision": 0.0
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 0,
+          "wrong_silent": 0,
+          "wrong_flagged": 1,
+          "missed": 137,
+          "correct_flagged": 0,
+          "utts_needing_review": 1,
+          "utts": 68,
+          "field_accuracy": 0.0,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.0147
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 0,
+          "wrong_silent": 0,
+          "wrong_flagged": 1,
+          "missed": 137,
+          "correct_flagged": 0,
+          "utts_needing_review": 1,
+          "utts": 68,
+          "field_accuracy": 0.0,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.0147
+        },
+        "latency": {
+          "decode_p50_s": 1.009,
+          "decode_p95_s": 1.558,
+          "rtf_mean": 0.238,
+          "audio_mean_s": 4.34
+        }
+      }
+    },
+    "small-fp32": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.4211,
+          "cer": 0.1547,
+          "term_recall": 0.2913,
+          "n_terms": 206,
+          "number_recall": 0.8095,
+          "number_utt_acc": 0.5972,
+          "number_halluc": 0.2619,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.3679,
+          "cer": 0.1422,
+          "term_recall": 0.534,
+          "n_terms": 206,
+          "number_recall": 0.8095,
+          "number_utt_acc": 0.5972,
+          "number_halluc": 0.2619,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 52,
+          "good": 50,
+          "bad": 2,
+          "precision": 0.9615
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 26,
+          "wrong_silent": 1,
+          "wrong_flagged": 26,
+          "missed": 85,
+          "correct_flagged": 0,
+          "utts_needing_review": 29,
+          "utts": 68,
+          "field_accuracy": 0.1884,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.963,
+          "review_rate": 0.4265
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 43,
+          "wrong_silent": 3,
+          "wrong_flagged": 22,
+          "missed": 70,
+          "correct_flagged": 0,
+          "utts_needing_review": 30,
+          "utts": 68,
+          "field_accuracy": 0.3116,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.88,
+          "review_rate": 0.4412
+        },
+        "latency": {
+          "decode_p50_s": 3.53,
+          "decode_p95_s": 4.969,
+          "rtf_mean": 0.878,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.3755,
+            0.4687
+          ],
+          "term_recall": [
+            0.2347,
+            0.3565
+          ],
+          "term_recall_corrected": [
+            0.464,
+            0.6078
+          ],
+          "term_recall_gain": [
+            0.1869,
+            0.3014
+          ]
+        }
+      }
+    },
+    "small-int8": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.4477,
+          "cer": 0.1629,
+          "term_recall": 0.2573,
+          "n_terms": 206,
+          "number_recall": 0.7917,
+          "number_utt_acc": 0.5833,
+          "number_halluc": 0.25,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.3902,
+          "cer": 0.1504,
+          "term_recall": 0.5194,
+          "n_terms": 206,
+          "number_recall": 0.7917,
+          "number_utt_acc": 0.5833,
+          "number_halluc": 0.25,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 56,
+          "good": 54,
+          "bad": 2,
+          "precision": 0.9643
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 26,
+          "wrong_silent": 0,
+          "wrong_flagged": 22,
+          "missed": 90,
+          "correct_flagged": 0,
+          "utts_needing_review": 24,
+          "utts": 68,
+          "field_accuracy": 0.1884,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.3529
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 39,
+          "wrong_silent": 2,
+          "wrong_flagged": 22,
+          "missed": 75,
+          "correct_flagged": 1,
+          "utts_needing_review": 28,
+          "utts": 68,
+          "field_accuracy": 0.2826,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.9167,
+          "review_rate": 0.4118
+        },
+        "latency": {
+          "decode_p50_s": 2.886,
+          "decode_p95_s": 4.232,
+          "rtf_mean": 0.722,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.4015,
+            0.4941
+          ],
+          "term_recall": [
+            0.203,
+            0.3211
+          ],
+          "term_recall_corrected": [
+            0.4504,
+            0.5959
+          ],
+          "term_recall_gain": [
+            0.2046,
+            0.3256
+          ]
+        }
+      },
+      "babble_10": {
+        "raw": {
+          "n": 162,
+          "wer": 0.5283,
+          "cer": 0.2085,
+          "term_recall": 0.2379,
+          "n_terms": 206,
+          "number_recall": 0.7619,
+          "number_utt_acc": 0.5139,
+          "number_halluc": 0.2857,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.4794,
+          "cer": 0.1971,
+          "term_recall": 0.4515,
+          "n_terms": 206,
+          "number_recall": 0.7619,
+          "number_utt_acc": 0.5139,
+          "number_halluc": 0.2857,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 47,
+          "good": 44,
+          "bad": 3,
+          "precision": 0.9362
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 24,
+          "wrong_silent": 1,
+          "wrong_flagged": 21,
+          "missed": 92,
+          "correct_flagged": 0,
+          "utts_needing_review": 26,
+          "utts": 68,
+          "field_accuracy": 0.1739,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.9545,
+          "review_rate": 0.3824
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 33,
+          "wrong_silent": 3,
+          "wrong_flagged": 18,
+          "missed": 84,
+          "correct_flagged": 0,
+          "utts_needing_review": 26,
+          "utts": 68,
+          "field_accuracy": 0.2391,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8571,
+          "review_rate": 0.3824
+        },
+        "latency": {
+          "decode_p50_s": 2.975,
+          "decode_p95_s": 4.454,
+          "rtf_mean": 0.735,
+          "audio_mean_s": 4.34
+        }
+      },
+      "babble_5": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6235,
+          "cer": 0.2743,
+          "term_recall": 0.1553,
+          "n_terms": 206,
+          "number_recall": 0.6607,
+          "number_utt_acc": 0.5139,
+          "number_halluc": 0.3214,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.5746,
+          "cer": 0.2652,
+          "term_recall": 0.3738,
+          "n_terms": 206,
+          "number_recall": 0.6607,
+          "number_utt_acc": 0.5139,
+          "number_halluc": 0.3214,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 46,
+          "good": 45,
+          "bad": 1,
+          "precision": 0.9783
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 14,
+          "wrong_silent": 1,
+          "wrong_flagged": 24,
+          "missed": 99,
+          "correct_flagged": 0,
+          "utts_needing_review": 25,
+          "utts": 68,
+          "field_accuracy": 0.1014,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.96,
+          "review_rate": 0.3676
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 24,
+          "wrong_silent": 3,
+          "wrong_flagged": 23,
+          "missed": 88,
+          "correct_flagged": 0,
+          "utts_needing_review": 25,
+          "utts": 68,
+          "field_accuracy": 0.1739,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8846,
+          "review_rate": 0.3676
+        },
+        "latency": {
+          "decode_p50_s": 2.949,
+          "decode_p95_s": 4.268,
+          "rtf_mean": 0.714,
+          "audio_mean_s": 4.34
+        }
+      },
+      "reverb": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6252,
+          "cer": 0.2731,
+          "term_recall": 0.165,
+          "n_terms": 206,
+          "number_recall": 0.6667,
+          "number_utt_acc": 0.5,
+          "number_halluc": 0.3929,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.5832,
+          "cer": 0.2619,
+          "term_recall": 0.3398,
+          "n_terms": 206,
+          "number_recall": 0.6667,
+          "number_utt_acc": 0.5,
+          "number_halluc": 0.3929,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 37,
+          "good": 36,
+          "bad": 1,
+          "precision": 0.973
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 14,
+          "wrong_silent": 0,
+          "wrong_flagged": 15,
+          "missed": 109,
+          "correct_flagged": 0,
+          "utts_needing_review": 21,
+          "utts": 68,
+          "field_accuracy": 0.1014,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.3088
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 28,
+          "wrong_silent": 0,
+          "wrong_flagged": 16,
+          "missed": 94,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.2029,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.3235
+        },
+        "latency": {
+          "decode_p50_s": 2.973,
+          "decode_p95_s": 4.197,
+          "rtf_mean": 0.732,
+          "audio_mean_s": 4.34
+        }
+      },
+      "telephone": {
+        "raw": {
+          "n": 162,
+          "wer": 0.4957,
+          "cer": 0.1913,
+          "term_recall": 0.2233,
+          "n_terms": 206,
+          "number_recall": 0.6905,
+          "number_utt_acc": 0.4861,
+          "number_halluc": 0.256,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.4322,
+          "cer": 0.1754,
+          "term_recall": 0.4806,
+          "n_terms": 206,
+          "number_recall": 0.6905,
+          "number_utt_acc": 0.4861,
+          "number_halluc": 0.256,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 56,
+          "good": 53,
+          "bad": 3,
+          "precision": 0.9464
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 21,
+          "wrong_silent": 2,
+          "wrong_flagged": 19,
+          "missed": 96,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.1522,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.9048,
+          "review_rate": 0.3235
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 37,
+          "wrong_silent": 2,
+          "wrong_flagged": 19,
+          "missed": 80,
+          "correct_flagged": 0,
+          "utts_needing_review": 24,
+          "utts": 68,
+          "field_accuracy": 0.2681,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.9048,
+          "review_rate": 0.3529
+        },
+        "latency": {
+          "decode_p50_s": 2.785,
+          "decode_p95_s": 4.102,
+          "rtf_mean": 0.699,
+          "audio_mean_s": 4.34
+        }
+      },
+      "opus_8k": {
+        "raw": {
+          "n": 162,
+          "wer": 0.4666,
+          "cer": 0.1767,
+          "term_recall": 0.2427,
+          "n_terms": 206,
+          "number_recall": 0.7738,
+          "number_utt_acc": 0.6111,
+          "number_halluc": 0.2381,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.4048,
+          "cer": 0.1634,
+          "term_recall": 0.5049,
+          "n_terms": 206,
+          "number_recall": 0.7738,
+          "number_utt_acc": 0.6111,
+          "number_halluc": 0.2381,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 58,
+          "good": 54,
+          "bad": 4,
+          "precision": 0.931
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 20,
+          "wrong_silent": 3,
+          "wrong_flagged": 20,
+          "missed": 95,
+          "correct_flagged": 0,
+          "utts_needing_review": 23,
+          "utts": 68,
+          "field_accuracy": 0.1449,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8696,
+          "review_rate": 0.3382
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 37,
+          "wrong_silent": 2,
+          "wrong_flagged": 17,
+          "missed": 82,
+          "correct_flagged": 1,
+          "utts_needing_review": 23,
+          "utts": 68,
+          "field_accuracy": 0.2681,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8947,
+          "review_rate": 0.3382
+        },
+        "latency": {
+          "decode_p50_s": 2.853,
+          "decode_p95_s": 4.103,
+          "rtf_mean": 0.705,
+          "audio_mean_s": 4.34
+        }
+      },
+      "combined": {
+        "raw": {
+          "n": 162,
+          "wer": 1.1021,
+          "cer": 0.7192,
+          "term_recall": 0.0097,
+          "n_terms": 206,
+          "number_recall": 0.2143,
+          "number_utt_acc": 0.0972,
+          "number_halluc": 0.381,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 1.1003,
+          "cer": 0.7188,
+          "term_recall": 0.0194,
+          "n_terms": 206,
+          "number_recall": 0.2143,
+          "number_utt_acc": 0.0972,
+          "number_halluc": 0.381,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 2,
+          "good": 2,
+          "bad": 0,
+          "precision": 1.0
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 1,
+          "wrong_silent": 0,
+          "wrong_flagged": 3,
+          "missed": 134,
+          "correct_flagged": 0,
+          "utts_needing_review": 3,
+          "utts": 68,
+          "field_accuracy": 0.0072,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.0441
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 1,
+          "wrong_silent": 1,
+          "wrong_flagged": 4,
+          "missed": 132,
+          "correct_flagged": 0,
+          "utts_needing_review": 4,
+          "utts": 68,
+          "field_accuracy": 0.0072,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.8,
+          "review_rate": 0.0588
+        },
+        "latency": {
+          "decode_p50_s": 2.769,
+          "decode_p95_s": 4.564,
+          "rtf_mean": 0.651,
+          "audio_mean_s": 4.34
+        }
+      }
+    },
+    "tiny-fp32": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6612,
+          "cer": 0.2455,
+          "term_recall": 0.0922,
+          "n_terms": 206,
+          "number_recall": 0.625,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.4286,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.5943,
+          "cer": 0.2303,
+          "term_recall": 0.3835,
+          "n_terms": 206,
+          "number_recall": 0.625,
+          "number_utt_acc": 0.4722,
+          "number_halluc": 0.4286,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 62,
+          "good": 60,
+          "bad": 2,
+          "precision": 0.9677
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 7,
+          "wrong_silent": 3,
+          "wrong_flagged": 22,
+          "missed": 106,
+          "correct_flagged": 0,
+          "utts_needing_review": 21,
+          "utts": 68,
+          "field_accuracy": 0.0507,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.88,
+          "review_rate": 0.3088
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 26,
+          "wrong_silent": 4,
+          "wrong_flagged": 19,
+          "missed": 89,
+          "correct_flagged": 0,
+          "utts_needing_review": 22,
+          "utts": 68,
+          "field_accuracy": 0.1884,
+          "silent_error_rate": 0.029,
+          "wrong_caught_share": 0.8261,
+          "review_rate": 0.3235
+        },
+        "latency": {
+          "decode_p50_s": 0.578,
+          "decode_p95_s": 0.854,
+          "rtf_mean": 0.144,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.6081,
+            0.7214
+          ],
+          "term_recall": [
+            0.0561,
+            0.1289
+          ],
+          "term_recall_corrected": [
+            0.3084,
+            0.458
+          ],
+          "term_recall_gain": [
+            0.2304,
+            0.3585
+          ]
+        }
+      }
+    },
+    "tiny-int8": {
+      "clean": {
+        "raw": {
+          "n": 162,
+          "wer": 0.6604,
+          "cer": 0.2562,
+          "term_recall": 0.0922,
+          "n_terms": 206,
+          "number_recall": 0.5238,
+          "number_utt_acc": 0.3194,
+          "number_halluc": 0.5298,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.5995,
+          "cer": 0.2413,
+          "term_recall": 0.3495,
+          "n_terms": 206,
+          "number_recall": 0.5238,
+          "number_utt_acc": 0.3194,
+          "number_halluc": 0.5298,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 56,
+          "good": 53,
+          "bad": 3,
+          "precision": 0.9464
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 4,
+          "wrong_silent": 3,
+          "wrong_flagged": 24,
+          "missed": 107,
+          "correct_flagged": 0,
+          "utts_needing_review": 23,
+          "utts": 68,
+          "field_accuracy": 0.029,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8889,
+          "review_rate": 0.3382
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 19,
+          "wrong_silent": 6,
+          "wrong_flagged": 21,
+          "missed": 92,
+          "correct_flagged": 0,
+          "utts_needing_review": 24,
+          "utts": 68,
+          "field_accuracy": 0.1377,
+          "silent_error_rate": 0.0435,
+          "wrong_caught_share": 0.7778,
+          "review_rate": 0.3529
+        },
+        "latency": {
+          "decode_p50_s": 0.529,
+          "decode_p95_s": 0.762,
+          "rtf_mean": 0.128,
+          "audio_mean_s": 4.34
+        },
+        "ci95": {
+          "wer": [
+            0.6102,
+            0.7145
+          ],
+          "term_recall": [
+            0.0542,
+            0.1333
+          ],
+          "term_recall_corrected": [
+            0.278,
+            0.4171
+          ],
+          "term_recall_gain": [
+            0.1979,
+            0.3172
+          ]
+        }
+      },
+      "babble_10": {
+        "raw": {
+          "n": 162,
+          "wer": 0.7779,
+          "cer": 0.348,
+          "term_recall": 0.068,
+          "n_terms": 206,
+          "number_recall": 0.4405,
+          "number_utt_acc": 0.3056,
+          "number_halluc": 0.5357,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.7307,
+          "cer": 0.3348,
+          "term_recall": 0.2864,
+          "n_terms": 206,
+          "number_recall": 0.4405,
+          "number_utt_acc": 0.3056,
+          "number_halluc": 0.5357,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 47,
+          "good": 45,
+          "bad": 2,
+          "precision": 0.9574
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 7,
+          "wrong_silent": 0,
+          "wrong_flagged": 11,
+          "missed": 120,
+          "correct_flagged": 0,
+          "utts_needing_review": 12,
+          "utts": 68,
+          "field_accuracy": 0.0507,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.1765
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 17,
+          "wrong_silent": 6,
+          "wrong_flagged": 10,
+          "missed": 105,
+          "correct_flagged": 0,
+          "utts_needing_review": 14,
+          "utts": 68,
+          "field_accuracy": 0.1232,
+          "silent_error_rate": 0.0435,
+          "wrong_caught_share": 0.625,
+          "review_rate": 0.2059
+        },
+        "latency": {
+          "decode_p50_s": 0.531,
+          "decode_p95_s": 0.779,
+          "rtf_mean": 0.131,
+          "audio_mean_s": 4.34
+        }
+      },
+      "babble_5": {
+        "raw": {
+          "n": 162,
+          "wer": 0.9597,
+          "cer": 0.5042,
+          "term_recall": 0.0291,
+          "n_terms": 206,
+          "number_recall": 0.1964,
+          "number_utt_acc": 0.125,
+          "number_halluc": 0.869,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.9443,
+          "cer": 0.5,
+          "term_recall": 0.1068,
+          "n_terms": 206,
+          "number_recall": 0.1964,
+          "number_utt_acc": 0.125,
+          "number_halluc": 0.869,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 17,
+          "good": 16,
+          "bad": 1,
+          "precision": 0.9412
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 1,
+          "wrong_silent": 0,
+          "wrong_flagged": 9,
+          "missed": 128,
+          "correct_flagged": 0,
+          "utts_needing_review": 9,
+          "utts": 68,
+          "field_accuracy": 0.0072,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.1324
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 2,
+          "wrong_silent": 3,
+          "wrong_flagged": 10,
+          "missed": 123,
+          "correct_flagged": 0,
+          "utts_needing_review": 13,
+          "utts": 68,
+          "field_accuracy": 0.0145,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.7692,
+          "review_rate": 0.1912
+        },
+        "latency": {
+          "decode_p50_s": 0.543,
+          "decode_p95_s": 0.992,
+          "rtf_mean": 0.141,
+          "audio_mean_s": 4.34
+        }
+      },
+      "reverb": {
+        "raw": {
+          "n": 162,
+          "wer": 1.0232,
+          "cer": 0.4924,
+          "term_recall": 0.0388,
+          "n_terms": 206,
+          "number_recall": 0.2738,
+          "number_utt_acc": 0.1389,
+          "number_halluc": 0.8274,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 1.0077,
+          "cer": 0.4875,
+          "term_recall": 0.1311,
+          "n_terms": 206,
+          "number_recall": 0.2738,
+          "number_utt_acc": 0.1389,
+          "number_halluc": 0.8274,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 19,
+          "good": 19,
+          "bad": 0,
+          "precision": 1.0
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 3,
+          "wrong_silent": 0,
+          "wrong_flagged": 8,
+          "missed": 127,
+          "correct_flagged": 0,
+          "utts_needing_review": 8,
+          "utts": 68,
+          "field_accuracy": 0.0217,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 1.0,
+          "review_rate": 0.1176
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 7,
+          "wrong_silent": 3,
+          "wrong_flagged": 13,
+          "missed": 115,
+          "correct_flagged": 0,
+          "utts_needing_review": 15,
+          "utts": 68,
+          "field_accuracy": 0.0507,
+          "silent_error_rate": 0.0217,
+          "wrong_caught_share": 0.8125,
+          "review_rate": 0.2206
+        },
+        "latency": {
+          "decode_p50_s": 1.094,
+          "decode_p95_s": 1.664,
+          "rtf_mean": 0.247,
+          "audio_mean_s": 4.34
+        }
+      },
+      "telephone": {
+        "raw": {
+          "n": 162,
+          "wer": 0.783,
+          "cer": 0.337,
+          "term_recall": 0.0583,
+          "n_terms": 206,
+          "number_recall": 0.3869,
+          "number_utt_acc": 0.2639,
+          "number_halluc": 0.5833,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.7376,
+          "cer": 0.3244,
+          "term_recall": 0.2476,
+          "n_terms": 206,
+          "number_recall": 0.3869,
+          "number_utt_acc": 0.2639,
+          "number_halluc": 0.5833,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 40,
+          "good": 39,
+          "bad": 1,
+          "precision": 0.975
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 2,
+          "wrong_silent": 2,
+          "wrong_flagged": 16,
+          "missed": 118,
+          "correct_flagged": 0,
+          "utts_needing_review": 17,
+          "utts": 68,
+          "field_accuracy": 0.0145,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8889,
+          "review_rate": 0.25
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 13,
+          "wrong_silent": 2,
+          "wrong_flagged": 13,
+          "missed": 110,
+          "correct_flagged": 0,
+          "utts_needing_review": 17,
+          "utts": 68,
+          "field_accuracy": 0.0942,
+          "silent_error_rate": 0.0145,
+          "wrong_caught_share": 0.8667,
+          "review_rate": 0.25
+        },
+        "latency": {
+          "decode_p50_s": 0.534,
+          "decode_p95_s": 0.756,
+          "rtf_mean": 0.13,
+          "audio_mean_s": 4.34
+        }
+      },
+      "opus_8k": {
+        "raw": {
+          "n": 162,
+          "wer": 0.7393,
+          "cer": 0.3093,
+          "term_recall": 0.0631,
+          "n_terms": 206,
+          "number_recall": 0.4821,
+          "number_utt_acc": 0.3472,
+          "number_halluc": 0.631,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 0.6852,
+          "cer": 0.2968,
+          "term_recall": 0.3107,
+          "n_terms": 206,
+          "number_recall": 0.4821,
+          "number_utt_acc": 0.3472,
+          "number_halluc": 0.631,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 53,
+          "good": 51,
+          "bad": 2,
+          "precision": 0.9623
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 3,
+          "wrong_silent": 1,
+          "wrong_flagged": 17,
+          "missed": 117,
+          "correct_flagged": 0,
+          "utts_needing_review": 19,
+          "utts": 68,
+          "field_accuracy": 0.0217,
+          "silent_error_rate": 0.0072,
+          "wrong_caught_share": 0.9444,
+          "review_rate": 0.2794
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 21,
+          "wrong_silent": 4,
+          "wrong_flagged": 17,
+          "missed": 96,
+          "correct_flagged": 0,
+          "utts_needing_review": 23,
+          "utts": 68,
+          "field_accuracy": 0.1522,
+          "silent_error_rate": 0.029,
+          "wrong_caught_share": 0.8095,
+          "review_rate": 0.3382
+        },
+        "latency": {
+          "decode_p50_s": 0.54,
+          "decode_p95_s": 0.792,
+          "rtf_mean": 0.135,
+          "audio_mean_s": 4.34
+        }
+      },
+      "combined": {
+        "raw": {
+          "n": 162,
+          "wer": 1.7496,
+          "cer": 0.9848,
+          "term_recall": 0.0049,
+          "n_terms": 206,
+          "number_recall": 0.0179,
+          "number_utt_acc": 0.0139,
+          "number_halluc": 0.7381,
+          "n_numbers": 168
+        },
+        "corrected": {
+          "n": 162,
+          "wer": 1.7496,
+          "cer": 0.9848,
+          "term_recall": 0.0049,
+          "n_terms": 206,
+          "number_recall": 0.0179,
+          "number_utt_acc": 0.0139,
+          "number_halluc": 0.7381,
+          "n_numbers": 168
+        },
+        "corrections": {
+          "applied": 0,
+          "good": 0,
+          "bad": 0,
+          "precision": 0.0
+        },
+        "extraction_raw": {
+          "fields": 138,
+          "correct": 0,
+          "wrong_silent": 0,
+          "wrong_flagged": 0,
+          "missed": 138,
+          "correct_flagged": 0,
+          "utts_needing_review": 0,
+          "utts": 68,
+          "field_accuracy": 0.0,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 0.0,
+          "review_rate": 0.0
+        },
+        "extraction_corrected": {
+          "fields": 138,
+          "correct": 0,
+          "wrong_silent": 0,
+          "wrong_flagged": 0,
+          "missed": 138,
+          "correct_flagged": 0,
+          "utts_needing_review": 0,
+          "utts": 68,
+          "field_accuracy": 0.0,
+          "silent_error_rate": 0.0,
+          "wrong_caught_share": 0.0,
+          "review_rate": 0.0
+        },
+        "latency": {
+          "decode_p50_s": 0.636,
+          "decode_p95_s": 1.0,
+          "rtf_mean": 0.154,
+          "audio_mean_s": 4.34
+        }
+      }
+    }
+  },
+  "model_size_mb": {
+    "base-fp32": 291.6,
+    "base-int8": 159.8,
+    "small-fp32": 968.7,
+    "small-int8": 374.7,
+    "tiny-fp32": 152.2,
+    "tiny-int8": 102.8
+  },
+  "per_voice_clean": {
+    "base-fp32": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.6278,
+        "cer": 0.2497,
+        "term_recall": 0.1553,
+        "n_terms": 103,
+        "number_recall": 0.5952,
+        "number_utt_acc": 0.4167,
+        "number_halluc": 0.381,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.3894,
+        "cer": 0.1147,
+        "term_recall": 0.2621,
+        "n_terms": 103,
+        "number_recall": 0.6905,
+        "number_utt_acc": 0.6389,
+        "number_halluc": 0.4167,
+        "n_numbers": 84
+      }
+    },
+    "base-int8": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.6535,
+        "cer": 0.273,
+        "term_recall": 0.1165,
+        "n_terms": 103,
+        "number_recall": 0.619,
+        "number_utt_acc": 0.5278,
+        "number_halluc": 0.2976,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.3842,
+        "cer": 0.1154,
+        "term_recall": 0.2524,
+        "n_terms": 103,
+        "number_recall": 0.7857,
+        "number_utt_acc": 0.6944,
+        "number_halluc": 0.2143,
+        "n_numbers": 84
+      }
+    },
+    "small-fp32": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.5455,
+        "cer": 0.2187,
+        "term_recall": 0.2039,
+        "n_terms": 103,
+        "number_recall": 0.7976,
+        "number_utt_acc": 0.6667,
+        "number_halluc": 0.2143,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.2967,
+        "cer": 0.0907,
+        "term_recall": 0.3786,
+        "n_terms": 103,
+        "number_recall": 0.8214,
+        "number_utt_acc": 0.5278,
+        "number_halluc": 0.3095,
+        "n_numbers": 84
+      }
+    },
+    "small-int8": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.5798,
+        "cer": 0.2339,
+        "term_recall": 0.165,
+        "n_terms": 103,
+        "number_recall": 0.7857,
+        "number_utt_acc": 0.6111,
+        "number_halluc": 0.2262,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.3156,
+        "cer": 0.0919,
+        "term_recall": 0.3495,
+        "n_terms": 103,
+        "number_recall": 0.7976,
+        "number_utt_acc": 0.5556,
+        "number_halluc": 0.2738,
+        "n_numbers": 84
+      }
+    },
+    "tiny-fp32": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.825,
+        "cer": 0.336,
+        "term_recall": 0.0388,
+        "n_terms": 103,
+        "number_recall": 0.5833,
+        "number_utt_acc": 0.4722,
+        "number_halluc": 0.4048,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.4974,
+        "cer": 0.1549,
+        "term_recall": 0.1456,
+        "n_terms": 103,
+        "number_recall": 0.6667,
+        "number_utt_acc": 0.4722,
+        "number_halluc": 0.4524,
+        "n_numbers": 84
+      }
+    },
+    "tiny-int8": {
+      "de_DE-ramona-low": {
+        "n": 81,
+        "wer": 0.8148,
+        "cer": 0.353,
+        "term_recall": 0.0388,
+        "n_terms": 103,
+        "number_recall": 0.4286,
+        "number_utt_acc": 0.2778,
+        "number_halluc": 0.6071,
+        "n_numbers": 84
+      },
+      "de_DE-pavoque-low": {
+        "n": 81,
+        "wer": 0.506,
+        "cer": 0.1595,
+        "term_recall": 0.1456,
+        "n_terms": 103,
+        "number_recall": 0.619,
+        "number_utt_acc": 0.3611,
+        "number_halluc": 0.4524,
+        "n_numbers": 84
+      }
+    }
+  },
+  "latency_idle": {
+    "tiny-int8@1t": {
+      "model": "tiny-int8",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 102.8,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 0.689,
+      "decode_p95_s": 1.008,
+      "rtf_mean": 0.185
+    },
+    "tiny-int8@2t": {
+      "model": "tiny-int8",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 102.8,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 0.579,
+      "decode_p95_s": 0.706,
+      "rtf_mean": 0.149
+    },
+    "tiny-fp32@1t": {
+      "model": "tiny-fp32",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 152.2,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 0.824,
+      "decode_p95_s": 1.127,
+      "rtf_mean": 0.217
+    },
+    "tiny-fp32@2t": {
+      "model": "tiny-fp32",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 152.2,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 0.596,
+      "decode_p95_s": 0.821,
+      "rtf_mean": 0.156
+    },
+    "base-int8@1t": {
+      "model": "base-int8",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 159.8,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 1.324,
+      "decode_p95_s": 1.766,
+      "rtf_mean": 0.338
+    },
+    "base-int8@2t": {
+      "model": "base-int8",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 159.8,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 0.952,
+      "decode_p95_s": 1.222,
+      "rtf_mean": 0.254
+    },
+    "base-fp32@1t": {
+      "model": "base-fp32",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 291.6,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 1.678,
+      "decode_p95_s": 2.327,
+      "rtf_mean": 0.44
+    },
+    "base-fp32@2t": {
+      "model": "base-fp32",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 291.6,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 1.094,
+      "decode_p95_s": 1.485,
+      "rtf_mean": 0.289
+    },
+    "small-int8@1t": {
+      "model": "small-int8",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 374.7,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 4.191,
+      "decode_p95_s": 5.576,
+      "rtf_mean": 1.086
+    },
+    "small-int8@2t": {
+      "model": "small-int8",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 374.7,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 3.256,
+      "decode_p95_s": 4.157,
+      "rtf_mean": 0.834
+    },
+    "small-fp32@1t": {
+      "model": "small-fp32",
+      "threads": 1,
+      "n": 30,
+      "size_mb": 968.7,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 5.455,
+      "decode_p95_s": 7.308,
+      "rtf_mean": 1.427
+    },
+    "small-fp32@2t": {
+      "model": "small-fp32",
+      "threads": 2,
+      "n": 30,
+      "size_mb": 968.7,
+      "audio_mean_s": 3.97,
+      "decode_p50_s": 3.975,
+      "decode_p95_s": 5.227,
+      "rtf_mean": 1.006
+    }
+  }
+}
