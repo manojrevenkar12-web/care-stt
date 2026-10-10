@@ -1,0 +1,42 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install -r requirements.txt
+      - run: pytest -q -k "not models"
+
+  smoke-eval:
+    # Real models, small slice: catches a broken pipeline or a gross regression
+    # on every push. The full grid (results/metrics.json) is run offline.
+    needs: unit
+    runs-on: ubuntu-latest
+    env:
+      CARE_STT_MODELS: ${{ github.workspace }}/models
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: models
+          key: models-ci-v1
+      - run: scripts/download_models.sh --ci
+      - run: pytest -q -k models
+      - name: transcribe 20 test sentences x 2 voices under 3 conditions
+        run: python scripts/transcribe.py --split test --models tiny-int8 --conditions clean babble_10 telephone --limit 20 --out ci_out
+      - name: smoke gate
+        run: python scripts/smoke_gate.py ci_out/test/tiny-int8
+      - name: release gates on the committed full benchmark
+        run: python -m care_stt.gates results/metrics.json gates.yaml

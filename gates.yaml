@@ -1,0 +1,55 @@
+# Release gates, checked in CI against results/metrics.json.
+# Two deployment targets: small-int8 (server) and base-int8 (on-device budget).
+# Clean-audio WER and term-recall bounds sit at the edge of the current release's
+# 95% bootstrap interval (results/report.md), so they trip on a change larger
+# than test-set sampling noise. The other bounds sit ~5-8 points below the
+# current value; they have no CI yet and are deliberately looser.
+gates:
+  # --- server model: accuracy where it matters ---
+  - name: server WER, clean
+    model: small-int8
+    condition: clean
+    metric: raw.wer
+    max: 0.50
+  - name: server drug/term recall after correction, clean
+    model: small-int8
+    condition: clean
+    metric: corrected.term_recall
+    min: 0.45
+  - name: server drug/term recall after correction, ward babble 10 dB
+    model: small-int8
+    condition: babble_10
+    metric: corrected.term_recall
+    min: 0.38
+  - name: correction never becomes a source of errors
+    model: small-int8
+    condition: clean
+    metric: corrections.precision
+    min: 0.90
+  - name: wrong chart values written without review flag
+    model: small-int8
+    condition: clean
+    metric: extraction_corrected.silent_error_rate
+    max: 0.03
+  - name: phone dictation keeps numbers
+    model: small-int8
+    condition: telephone
+    metric: raw.number_recall
+    min: 0.62
+
+  # --- on-device model: latency + numbers ---
+  - name: on-device numbers fully right, clean
+    model: base-int8
+    condition: clean
+    metric: raw.number_utt_acc
+    min: 0.50
+  - name: on-device real-time factor
+    model: base-int8
+    condition: clean
+    metric: latency.rtf_mean
+    max: 0.35
+  - name: on-device drug/term recall after correction, weak mobile link
+    model: base-int8
+    condition: opus_8k
+    metric: corrected.term_recall
+    min: 0.30
