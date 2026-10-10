@@ -1,0 +1,9 @@
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+models/
+ci_out/
+data/recordings/
+*.wav
+*.npy

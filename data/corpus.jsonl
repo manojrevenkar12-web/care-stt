@@ -1,0 +1,120 @@
+{"text": "Bewohnerin hat heute Morgen gut gefrühstückt und war gut gelaunt.", "id": "n000", "split": "test", "kind": "narrative"}
+{"text": "Bewohner klagt über Schmerzen im rechten Knie, Bedarfsmedikation wurde angeboten.", "id": "n001", "split": "dev", "kind": "narrative"}
+{"text": "Verbandwechsel am linken Unterschenkel durchgeführt, Wunde sauber und reizlos.", "id": "n002", "split": "dev", "kind": "narrative"}
+{"text": "Am Steißbein zeigt sich eine leichte Hautrötung, Dekubitusprophylaxe wird intensiviert.", "id": "n003", "split": "test", "kind": "narrative"}
+{"text": "Lagerung alle zwei Stunden nach Plan, zuletzt auf die linke Seite.", "id": "n004", "split": "test", "kind": "narrative"}
+{"text": "Bewohnerin hat beim Frühstück wenig getrunken, Trinkprotokoll wird weitergeführt.", "id": "n005", "split": "test", "kind": "narrative"}
+{"text": "Mobilisation mit dem Rollator auf dem Flur, Bewohner lief etwa zehn Minuten.", "id": "n006", "split": "dev", "kind": "narrative"}
+{"text": "Inkontinenzmaterial gewechselt, Haut intakt.", "id": "n007", "split": "test", "kind": "narrative"}
+{"text": "Bewohner war nachts unruhig und desorientiert, mehrfach aufgestanden.", "id": "n008", "split": "dev", "kind": "narrative"}
+{"text": "Sturzprotokoll ausgefüllt, Bewohnerin wurde neben dem Bett auf dem Boden gefunden.", "id": "n009", "split": "test", "kind": "narrative"}
+{"text": "Keine sichtbaren Verletzungen nach dem Sturz, Hausarzt wurde informiert.", "id": "n010", "split": "dev", "kind": "narrative"}
+{"text": "Kompressionsstrümpfe am Morgen angezogen, Beine leicht geschwollen.", "id": "n011", "split": "test", "kind": "narrative"}
+{"text": "Ödeme an beiden Knöcheln, Rücksprache mit dem Hausarzt erfolgt.", "id": "n012", "split": "test", "kind": "narrative"}
+{"text": "Bewohner hat seit drei Tagen keinen Stuhlgang, Verdacht auf Obstipation.", "id": "n013", "split": "dev", "kind": "narrative"}
+{"text": "Macrogol nach ärztlicher Anordnung verabreicht.", "id": "n014", "split": "test", "kind": "narrative"}
+{"text": "Bewohnerin hat nach dem Mittagessen einmal erbrochen.", "id": "n015", "split": "test", "kind": "narrative"}
+{"text": "Schluckstörung bekannt, Getränke werden angedickt angeboten.", "id": "n016", "split": "dev", "kind": "narrative"}
+{"text": "Dyspnoe bei Belastung, Oberkörper hoch gelagert.", "id": "n017", "split": "dev", "kind": "narrative"}
+{"text": "Pneumonieprophylaxe durchgeführt, Atemübungen mit der Bewohnerin gemacht.", "id": "n018", "split": "dev", "kind": "narrative"}
+{"text": "Thromboseprophylaxe mit Heparin nach Plan.", "id": "n019", "split": "test", "kind": "narrative"}
+{"text": "Blasenkatheter gespült, Urin klar.", "id": "n020", "split": "test", "kind": "narrative"}
+{"text": "Ernährungssonde gespült, Lage kontrolliert.", "id": "n021", "split": "dev", "kind": "narrative"}
+{"text": "Wundversorgung mit Hydrogel und Schaumverband.", "id": "n022", "split": "test", "kind": "narrative"}
+{"text": "Braden-Skala erneut erhoben, Risiko unverändert hoch.", "id": "n023", "split": "test", "kind": "narrative"}
+{"text": "Kontrakturenprophylaxe im Rahmen der Grundpflege durchgeführt.", "id": "n024", "split": "dev", "kind": "narrative"}
+{"text": "Physiotherapie war heute Vormittag da, Gangtraining durchgeführt.", "id": "n025", "split": "test", "kind": "narrative"}
+{"text": "Bewohnerin wirkt müde, Verdacht auf Exsikkose, Bilanzierung angeordnet.", "id": "n026", "split": "test", "kind": "narrative"}
+{"text": "Tochter hat angerufen und wird am Wochenende zu Besuch kommen.", "id": "n027", "split": "dev", "kind": "narrative"}
+{"text": "Bewohner hat die Abendmedikation verweigert, Hausarzt wird morgen informiert.", "id": "n028", "split": "test", "kind": "narrative"}
+{"text": "Ramipril und Bisoprolol wie verordnet am Morgen gegeben.", "id": "n029", "split": "test", "kind": "narrative"}
+{"text": "Metformin zum Frühstück und zum Abendessen verabreicht.", "id": "n030", "split": "dev", "kind": "narrative"}
+{"text": "Pantoprazol vor dem Frühstück gegeben.", "id": "n031", "split": "test", "kind": "narrative"}
+{"text": "Torasemid am Morgen, Bewohnerin muss häufig zur Toilette.", "id": "n032", "split": "dev", "kind": "narrative"}
+{"text": "Novaminsulfon als Bedarfsmedikation bei Schmerzen gegeben.", "id": "n033", "split": "test", "kind": "narrative"}
+{"text": "Melperon zur Nacht gegeben, Bewohner schläft seitdem ruhig.", "id": "n034", "split": "dev", "kind": "narrative"}
+{"text": "Quetiapin wurde vom Neurologen neu angesetzt.", "id": "n035", "split": "test", "kind": "narrative"}
+{"text": "Mirtazapin zur Nacht, Bewohnerin schläft besser als letzte Woche.", "id": "n036", "split": "test", "kind": "narrative"}
+{"text": "Tramadol Tropfen bei starken Schmerzen nach Rücksprache gegeben.", "id": "n037", "split": "dev", "kind": "narrative"}
+{"text": "Fentanyl Pflaster gewechselt, altes Pflaster entsorgt.", "id": "n038", "split": "test", "kind": "narrative"}
+{"text": "Prednisolon wird laut Hausarzt schrittweise reduziert.", "id": "n039", "split": "test", "kind": "narrative"}
+{"text": "Apixaban morgens und abends, keine Blutungszeichen.", "id": "n040", "split": "test", "kind": "narrative"}
+{"text": "Levodopa pünktlich gegeben, Bewohner zittert heute weniger.", "id": "n041", "split": "test", "kind": "narrative"}
+{"text": "Donepezil am Abend gegeben, Bewohnerin war heute zeitlich orientiert.", "id": "n042", "split": "test", "kind": "narrative"}
+{"text": "Amoxicillin wegen Harnwegsinfekt für sieben Tage angeordnet.", "id": "n043", "split": "dev", "kind": "narrative"}
+{"text": "Insulin nach Schema vor dem Mittagessen gespritzt.", "id": "n044", "split": "test", "kind": "narrative"}
+{"text": "Lactulose Sirup nach dem Frühstück gegeben.", "id": "n045", "split": "test", "kind": "narrative"}
+{"text": "Paracetamol bei leichtem Fieber verabreicht.", "id": "n046", "split": "test", "kind": "narrative"}
+{"text": "Salbutamol Spray bei Atemnot angewendet, danach Besserung.", "id": "n047", "split": "test", "kind": "narrative"}
+{"text": "Levothyroxin nüchtern eine halbe Stunde vor dem Frühstück gegeben.", "id": "n048", "split": "test", "kind": "narrative"}
+{"text": "Clopidogrel und Simvastatin am Abend gegeben.", "id": "n049", "split": "test", "kind": "narrative"}
+{"text": "Pregabalin wegen Nervenschmerzen, Bewohner ist tagsüber etwas schläfrig.", "id": "n050", "split": "test", "kind": "narrative"}
+{"text": "Candesartan wurde wegen niedrigem Blutdruck pausiert.", "id": "n051", "split": "test", "kind": "narrative"}
+{"text": "Lorazepam einmalig bei starker Unruhe gegeben.", "id": "n052", "split": "dev", "kind": "narrative"}
+{"text": "Furosemid zusätzlich wegen Ödemen angeordnet.", "id": "n053", "split": "dev", "kind": "narrative"}
+{"text": "Nitrospray bei Brustschmerzen angewendet, Beschwerden nach fünf Minuten rückläufig.", "id": "n054", "split": "test", "kind": "narrative"}
+{"text": "Bewohner hat das Mittagessen vollständig gegessen.", "id": "n055", "split": "dev", "kind": "narrative"}
+{"text": "Bewohnerin möchte morgen früher geweckt werden.", "id": "n056", "split": "test", "kind": "narrative"}
+{"text": "Zahnprothese gereinigt und in der Dose aufbewahrt.", "id": "n057", "split": "test", "kind": "narrative"}
+{"text": "Bewohner hat an der Gruppenaktivität im Aufenthaltsraum teilgenommen.", "id": "n058", "split": "test", "kind": "narrative"}
+{"text": "Haare gewaschen und Fingernägel geschnitten.", "id": "n059", "split": "dev", "kind": "narrative"}
+{"text": "Bewohnerin weint häufig und spricht vom verstorbenen Ehemann.", "id": "n060", "split": "test", "kind": "narrative"}
+{"text": "Brille war verlegt, wurde im Badezimmer gefunden.", "id": "n061", "split": "test", "kind": "narrative"}
+{"text": "Bewohner hat Besuch von seinem Sohn bekommen und war danach sehr zufrieden.", "id": "n062", "split": "test", "kind": "narrative"}
+{"text": "Hautpflege mit Lotion nach dem Duschen.", "id": "n063", "split": "test", "kind": "narrative"}
+{"text": "Bewohnerin klagt über Juckreiz am Rücken.", "id": "n064", "split": "test", "kind": "narrative"}
+{"text": "Rötung an der Ferse rechts, Ferse wird frei gelagert.", "id": "n065", "split": "dev", "kind": "narrative"}
+{"text": "Bewohner hustet seit gestern vermehrt, Auswurf gelblich.", "id": "n066", "split": "test", "kind": "narrative"}
+{"text": "Arzttermin beim Zahnarzt für nächste Woche vereinbart.", "id": "n067", "split": "test", "kind": "narrative"}
+{"text": "Bewohnerin hat sich selbstständig gewaschen, Unterstützung nur am Rücken.", "id": "n068", "split": "test", "kind": "narrative"}
+{"text": "Desorientierung zur Person, Bewohner erkennt die Pflegekraft nicht.", "id": "n069", "split": "dev", "kind": "narrative"}
+{"text": "Blutdruck 139 zu 69, Puls 53.", "vitals": {"bp_sys": 139, "bp_dia": 69, "pulse": 53}, "id": "v000", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 127 zu 76, Puls 99.", "vitals": {"bp_sys": 127, "bp_dia": 76, "pulse": 99}, "id": "v001", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 136 zu 77, Puls 80.", "vitals": {"bp_sys": 136, "bp_dia": 77, "pulse": 80}, "id": "v002", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 175 zu 66, Puls 69.", "vitals": {"bp_sys": 175, "bp_dia": 66, "pulse": 69}, "id": "v003", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 145 zu 103, Puls 106.", "vitals": {"bp_sys": 145, "bp_dia": 103, "pulse": 106}, "id": "v004", "split": "dev", "kind": "dictation"}
+{"text": "Blutdruck 95 zu 105, Puls 113.", "vitals": {"bp_sys": 95, "bp_dia": 105, "pulse": 113}, "id": "v005", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 132 zu 75, Puls 104.", "vitals": {"bp_sys": 132, "bp_dia": 75, "pulse": 104}, "id": "v006", "split": "dev", "kind": "dictation"}
+{"text": "Blutdruck 172 zu 105, Puls 69.", "vitals": {"bp_sys": 172, "bp_dia": 105, "pulse": 69}, "id": "v007", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 119 zu 77, Puls 85.", "vitals": {"bp_sys": 119, "bp_dia": 77, "pulse": 85}, "id": "v008", "split": "dev", "kind": "dictation"}
+{"text": "Blutdruck 133 zu 61, Puls 59.", "vitals": {"bp_sys": 133, "bp_dia": 61, "pulse": 59}, "id": "v009", "split": "test", "kind": "dictation"}
+{"text": "Blutdruck 181 zu 58, Puls 58.", "vitals": {"bp_sys": 181, "bp_dia": 58, "pulse": 58}, "id": "v010", "split": "dev", "kind": "dictation"}
+{"text": "Blutdruck 129 zu 75, Puls 98.", "vitals": {"bp_sys": 129, "bp_dia": 75, "pulse": 98}, "id": "v011", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 36,9 Grad, Sauerstoffsättigung 85 Prozent.", "vitals": {"temp": 36.9, "spo2": 85}, "id": "v012", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 37,5 Grad, Sauerstoffsättigung 88 Prozent.", "vitals": {"temp": 37.5, "spo2": 88}, "id": "v013", "split": "dev", "kind": "dictation"}
+{"text": "Temperatur 39 Grad, Sauerstoffsättigung 96 Prozent.", "vitals": {"temp": 39.0, "spo2": 96}, "id": "v014", "split": "dev", "kind": "dictation"}
+{"text": "Temperatur 37,9 Grad, Sauerstoffsättigung 85 Prozent.", "vitals": {"temp": 37.9, "spo2": 85}, "id": "v015", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 37,9 Grad, Sauerstoffsättigung 89 Prozent.", "vitals": {"temp": 37.9, "spo2": 89}, "id": "v016", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 38,9 Grad, Sauerstoffsättigung 90 Prozent.", "vitals": {"temp": 38.9, "spo2": 90}, "id": "v017", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 38,8 Grad, Sauerstoffsättigung 94 Prozent.", "vitals": {"temp": 38.8, "spo2": 94}, "id": "v018", "split": "test", "kind": "dictation"}
+{"text": "Temperatur 38,8 Grad, Sauerstoffsättigung 93 Prozent.", "vitals": {"temp": 38.8, "spo2": 93}, "id": "v019", "split": "test", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 275, 18 Einheiten Insulin gespritzt.", "vitals": {"glucose": 275}, "doses": [["Insulin", 18, "IE"]], "id": "v020", "split": "test", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 169, 14 Einheiten Insulin gespritzt.", "vitals": {"glucose": 169}, "doses": [["Insulin", 14, "IE"]], "id": "v021", "split": "dev", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 282, 5 Einheiten Insulin gespritzt.", "vitals": {"glucose": 282}, "doses": [["Insulin", 5, "IE"]], "id": "v022", "split": "dev", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 223, 2 Einheiten Insulin gespritzt.", "vitals": {"glucose": 223}, "doses": [["Insulin", 2, "IE"]], "id": "v023", "split": "test", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 311, 17 Einheiten Insulin gespritzt.", "vitals": {"glucose": 311}, "doses": [["Insulin", 17, "IE"]], "id": "v024", "split": "test", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 339, 10 Einheiten Insulin gespritzt.", "vitals": {"glucose": 339}, "doses": [["Insulin", 10, "IE"]], "id": "v025", "split": "dev", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 144, 2 Einheiten Insulin gespritzt.", "vitals": {"glucose": 144}, "doses": [["Insulin", 2, "IE"]], "id": "v026", "split": "test", "kind": "dictation"}
+{"text": "Blutzucker vor dem Mittagessen 333, 4 Einheiten Insulin gespritzt.", "vitals": {"glucose": 333}, "doses": [["Insulin", 4, "IE"]], "id": "v027", "split": "dev", "kind": "dictation"}
+{"text": "Atemfrequenz 25 pro Minute, Puls 64, Blutdruck 169 zu 87.", "vitals": {"resp_rate": 25, "pulse": 64, "bp_sys": 169, "bp_dia": 87}, "id": "v028", "split": "test", "kind": "dictation"}
+{"text": "Atemfrequenz 27 pro Minute, Puls 91, Blutdruck 134 zu 95.", "vitals": {"resp_rate": 27, "pulse": 91, "bp_sys": 134, "bp_dia": 95}, "id": "v029", "split": "test", "kind": "dictation"}
+{"text": "Atemfrequenz 18 pro Minute, Puls 92, Blutdruck 123 zu 86.", "vitals": {"resp_rate": 18, "pulse": 92, "bp_sys": 123, "bp_dia": 86}, "id": "v030", "split": "dev", "kind": "dictation"}
+{"text": "Atemfrequenz 21 pro Minute, Puls 77, Blutdruck 131 zu 64.", "vitals": {"resp_rate": 21, "pulse": 77, "bp_sys": 131, "bp_dia": 64}, "id": "v031", "split": "dev", "kind": "dictation"}
+{"text": "Atemfrequenz 21 pro Minute, Puls 72, Blutdruck 133 zu 63.", "vitals": {"resp_rate": 21, "pulse": 72, "bp_sys": 133, "bp_dia": 63}, "id": "v032", "split": "test", "kind": "dictation"}
+{"text": "Atemfrequenz 12 pro Minute, Puls 88, Blutdruck 119 zu 74.", "vitals": {"resp_rate": 12, "pulse": 88, "bp_sys": 119, "bp_dia": 74}, "id": "v033", "split": "dev", "kind": "dictation"}
+{"text": "Ibuprofen 25 Milligramm um zweiundzwanzig Uhr gegeben.", "doses": [["Ibuprofen", 25, "mg"]], "time_h": 22, "id": "v034", "split": "test", "kind": "dictation"}
+{"text": "Metformin 2,5 Milligramm um acht Uhr gegeben.", "doses": [["Metformin", 2.5, "mg"]], "time_h": 8, "id": "v035", "split": "test", "kind": "dictation"}
+{"text": "Amlodipin 500 Milligramm um zwanzig Uhr gegeben.", "doses": [["Amlodipin", 500, "mg"]], "time_h": 20, "id": "v036", "split": "test", "kind": "dictation"}
+{"text": "Furosemid 100 Milligramm um zweiundzwanzig Uhr gegeben.", "doses": [["Furosemid", 100, "mg"]], "time_h": 22, "id": "v037", "split": "dev", "kind": "dictation"}
+{"text": "Torasemid 400 Milligramm um zwanzig Uhr gegeben.", "doses": [["Torasemid", 400, "mg"]], "time_h": 20, "id": "v038", "split": "test", "kind": "dictation"}
+{"text": "Metformin 100 Milligramm um acht Uhr gegeben.", "doses": [["Metformin", 100, "mg"]], "time_h": 8, "id": "v039", "split": "test", "kind": "dictation"}
+{"text": "Quetiapin 50 Milligramm um acht Uhr gegeben.", "doses": [["Quetiapin", 50, "mg"]], "time_h": 8, "id": "v040", "split": "test", "kind": "dictation"}
+{"text": "Candesartan 100 Milligramm um zweiundzwanzig Uhr gegeben.", "doses": [["Candesartan", 100, "mg"]], "time_h": 22, "id": "v041", "split": "test", "kind": "dictation"}
+{"text": "Amlodipin 200 Milligramm um zwanzig Uhr gegeben.", "doses": [["Amlodipin", 200, "mg"]], "time_h": 20, "id": "v042", "split": "test", "kind": "dictation"}
+{"text": "Quetiapin 2,5 Milligramm um sieben Uhr gegeben.", "doses": [["Quetiapin", 2.5, "mg"]], "time_h": 7, "id": "v043", "split": "test", "kind": "dictation"}
+{"text": "Ramipril 75 Milligramm um zwanzig Uhr gegeben.", "doses": [["Ramipril", 75, "mg"]], "time_h": 20, "id": "v044", "split": "test", "kind": "dictation"}
+{"text": "Candesartan 50 Milligramm um zwanzig Uhr gegeben.", "doses": [["Candesartan", 50, "mg"]], "time_h": 20, "id": "v045", "split": "dev", "kind": "dictation"}
+{"text": "Torasemid 2,5 Milligramm um acht Uhr gegeben.", "doses": [["Torasemid", 2.5, "mg"]], "time_h": 8, "id": "v046", "split": "test", "kind": "dictation"}
+{"text": "Amlodipin 40 Milligramm um sieben Uhr gegeben.", "doses": [["Amlodipin", 40, "mg"]], "time_h": 7, "id": "v047", "split": "test", "kind": "dictation"}
+{"text": "Melperon 200 Milligramm um zweiundzwanzig Uhr gegeben.", "doses": [["Melperon", 200, "mg"]], "time_h": 22, "id": "v048", "split": "dev", "kind": "dictation"}
+{"text": "Enoxaparin 50 Milligramm um zwanzig Uhr gegeben.", "doses": [["Enoxaparin", 50, "mg"]], "time_h": 20, "id": "v049", "split": "test", "kind": "dictation"}
