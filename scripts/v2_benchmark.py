@@ -73,10 +73,16 @@ def cmd_tune() -> None:
 def cmd_dev() -> None:
     eval2.run([d for d in decoders() if d.name == "finetuned+bias"], ["v1-dev", "facility-dev"], synth.DEV_VOICES[:2],
               eval2.CONDITIONS, bonus=bonus())
+    # the gate also sees greedy output of the same dev notes, so it can be applied to either decoder
+
 
 
 def cmd_test() -> None:
-    eval2.run(decoders(), ["facility", "v1"], synth.TEST_VOICES, eval2.CONDITIONS, bonus=bonus())
+    """Held-out voices. Every decoder on the facility notes; on the hand-written v1 notes only the
+    greedy decoders (those notes name no resident, and beam search costs ~3x the CPU time)."""
+    conds = ["clean", "babble_10"]
+    eval2.run(decoders(), ["facility"], synth.TEST_VOICES, conds, bonus=bonus())
+    eval2.run(decoders(bias=False), ["v1"], synth.TEST_VOICES, conds, bonus=bonus())
 
 
 def cmd_report() -> None:

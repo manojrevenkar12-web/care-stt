@@ -1,0 +1,30 @@
+{
+ "bonus": 3.0,
+ "dev": {
+  "0.0": {
+   "wer": 0.4855,
+   "name_recall": 0.0813,
+   "drug_recall": 0.1187
+  },
+  "1.0": {
+   "wer": 0.3753,
+   "name_recall": 0.2437,
+   "drug_recall": 0.2375
+  },
+  "2.0": {
+   "wer": 0.376,
+   "name_recall": 0.4,
+   "drug_recall": 0.3187
+  },
+  "3.0": {
+   "wer": 0.3857,
+   "name_recall": 0.65,
+   "drug_recall": 0.4875
+  },
+  "4.0": {
+   "wer": 0.8643,
+   "name_recall": 0.675,
+   "drug_recall": 0.6
+  }
+ }
+}
