@@ -1,0 +1,32 @@
+# v2 release gates (python -m care_stt.gates_v2), over results/v2/metrics.json and results/v2/gate.json.
+# Relative gates: the release candidate must beat the baselines where it was measured to beat them.
+# Absolute gates: floors and ceilings set just past the first measured values (4 Nov 2026), so a later
+# change that loses ground fails CI. Two known regressions are held as ceilings, not hidden:
+# silent wrong fields (2.8% vs stock's 1.5%) and resident names (60.8% vs stock+bias's 63.5%).
+
+relative:
+  - {name: "facility: term recall vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: term_recall}
+  - {name: "facility: names vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: name_recall}
+  - {name: "facility: unseen lexicon drugs vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: drug_recall_heldout}
+  - {name: "facility: brand-new drugs vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: drug_recall_new}
+  - {name: "facility: fields correct vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: fields_correct}
+  - {name: "facility: WER vs stock", candidate: finetuned+bias, baseline: stock, set: facility, metric: wer, lower_is_better: true}
+  - {name: "facility: term recall vs stock+bias", candidate: finetuned+bias, baseline: stock+bias, set: facility, metric: term_recall}
+  - {name: "facility: fields correct vs stock+bias", candidate: finetuned+bias, baseline: stock+bias, set: facility, metric: fields_correct}
+  - {name: "facility: brand-new drugs vs stock+bias", candidate: finetuned+bias, baseline: stock+bias, set: facility, metric: drug_recall_new}
+  - {name: "v1 notes: WER vs stock", candidate: finetuned, baseline: stock, set: v1, metric: wer, lower_is_better: true}
+  - {name: "v1 notes: term recall vs stock", candidate: finetuned, baseline: stock, set: v1, metric: term_recall}
+  - {name: "v1 notes: fields correct vs stock", candidate: finetuned, baseline: stock, set: v1, metric: fields_correct}
+
+absolute:
+  - {name: "facility: term recall floor", system: finetuned+bias, set: facility, metric: term_recall, min: 0.50}
+  - {name: "facility: name recall floor", system: finetuned+bias, set: facility, metric: name_recall, min: 0.58}
+  - {name: "facility: brand-new drug floor", system: finetuned+bias, set: facility, metric: drug_recall_new, min: 0.40}
+  - {name: "facility: fields correct floor", system: finetuned+bias, set: facility, metric: fields_correct, min: 0.47}
+  - {name: "facility: silent wrong fields ceiling", system: finetuned+bias, set: facility, metric: fields_wrong_silent, max: 0.03}
+  - {name: "v1 notes: WER ceiling", system: finetuned, set: v1, metric: wer, max: 0.33}
+  - {name: "v1 notes: term recall floor", system: finetuned, set: v1, metric: term_recall, min: 0.66}
+  - {name: "v1 notes: fields correct floor", system: finetuned, set: v1, metric: fields_correct, min: 0.71}
+  - {name: "read-back gate: recall on test", source: gate, metric: recall, min: 0.84}
+  - {name: "read-back gate: silent chart errors left", source: gate, metric: silent_error_rate_with_gate, max: 0.10}
+  - {name: "read-back gate: share of notes read back", source: gate, metric: flag_rate, max: 0.80}

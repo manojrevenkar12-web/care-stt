@@ -1,0 +1,26 @@
+{
+ "decoder": "finetuned+bias",
+ "target_recall_on_dev": 0.8,
+ "threshold": 0.427,
+ "dev_notes": 474,
+ "test_notes": 480,
+ "test_error_rate": 0.6854,
+ "flag_rate": 0.7854,
+ "recall": 0.8663,
+ "precision": 0.756,
+ "silent_error_rate_without_gate": 0.6854,
+ "silent_error_rate_with_gate": 0.0917,
+ "weights": {
+  "mean_lp": -0.206,
+  "min_lp": 0.113,
+  "p10_lp": -0.427,
+  "share_below_1": 0.55,
+  "share_below_3": -0.499,
+  "tokens_per_s": 0.079,
+  "chars_per_s": -1.292,
+  "numbers": 0.182,
+  "capital_words": -0.846,
+  "repeat_share": 0.592,
+  "n_tokens": 2.085
+ }
+}
