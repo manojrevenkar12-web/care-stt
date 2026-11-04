@@ -12,12 +12,15 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
       - run: pip install -r requirements.txt
       - run: pytest -q -k "not models"
+      - name: release gates on the committed benchmarks (v1 and v2)
+        run: python -m care_stt.gates results/metrics.json gates.yaml && if [ -f results/v2/metrics.json ]; then python -m care_stt.gates_v2; fi
 
   smoke-eval:
-    # Real models, small slice: catches a broken pipeline or a gross regression
-    # on every push. The full grid (results/metrics.json) is run offline.
+    # Real models, small slice: catches a broken pipeline or a gross regression on every push.
+    # The full grids (results/metrics.json, results/v2/metrics.json) are run offline.
     needs: unit
     runs-on: ubuntu-latest
     env:
@@ -27,16 +30,38 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
       - run: pip install -r requirements.txt
       - uses: actions/cache@v4
         with:
           path: models
           key: models-ci-v1
       - run: scripts/download_models.sh --ci
-      - run: pytest -q -k models
+      - name: model tests (PyTorch port parity, export drop-in, BPE)
+        run: pytest -q -k models
       - name: transcribe 20 test sentences x 2 voices under 3 conditions
         run: python scripts/transcribe.py --split test --models tiny-int8 --conditions clean babble_10 telephone --limit 20 --out ci_out
       - name: smoke gate
         run: python scripts/smoke_gate.py ci_out/test/tiny-int8
-      - name: release gates on the committed full benchmark
-        run: python -m care_stt.gates results/metrics.json gates.yaml
+      - name: fine-tuning runs end to end (whisper-tiny, 32 sentences, one epoch)
+        run: python -m care_stt.train --size tiny --epochs 1 --limit 32 --eval-every 4 --dev-n 4
+
+  console:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: console } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: console/package-lock.json }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: npm ci
+      - run: npm run build
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install -r ../requirements.txt
+      - run: npx playwright install --with-deps chromium
+      - name: console end to end against the committed v2 results
+        if: hashFiles('results/v2/metrics.json') != ''
+        run: |
+          (cd .. && uvicorn care_stt.review_api:app --port 8000 &)
+          for _ in $(seq 1 30); do curl -sf http://localhost:8000/v2/systems >/dev/null && break; sleep 1; done
+          CARE_STT_CONSOLE=http://localhost:8000 npm run e2e

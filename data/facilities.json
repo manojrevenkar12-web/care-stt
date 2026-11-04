@@ -1,0 +1,114 @@
+{
+ "Haus Lindenhof": {
+  "residents": [
+   "Brandstätter",
+   "Wiśniewski",
+   "Yılmaz",
+   "Hohenadel",
+   "Zielinski",
+   "Ostermann",
+   "Bäumler",
+   "Kasprzak",
+   "Scheuermann",
+   "Dragomir",
+   "Pfeiffer",
+   "Szymańska"
+  ],
+  "plan": [
+   "Edoxaban",
+   "Metamizol",
+   "Tamsulosin",
+   "Memantin",
+   "Ramipril",
+   "Pantoprazol",
+   "Haloperidol",
+   "Gabapentin",
+   "Levothyroxin",
+   "Dapagliflozin"
+  ]
+ },
+ "Seniorenresidenz Am Park": {
+  "residents": [
+   "Achterberg",
+   "Nguyen",
+   "Lindqvist",
+   "Ciobanu",
+   "Rüdiger",
+   "Hartwig",
+   "Mazur",
+   "Eichhorn",
+   "Tschernow",
+   "Brockmann",
+   "Aksoy",
+   "Vollmer"
+  ],
+  "plan": [
+   "Empagliflozin",
+   "Tilidin",
+   "Risperidon",
+   "Rivaroxaban",
+   "Bisoprolol",
+   "Metformin",
+   "Venlafaxin",
+   "Allopurinol",
+   "Torasemid",
+   "Esomeprazol"
+  ]
+ },
+ "Pflegezentrum Nordufer": {
+  "residents": [
+   "Grabowski",
+   "Feldkamp",
+   "Sorokina",
+   "Weißenborn",
+   "Celik",
+   "Ambrosius",
+   "Kranich",
+   "Lewandowska",
+   "Hamdi",
+   "Stolzenberg",
+   "Petrescu",
+   "Wendland"
+  ],
+  "plan": [
+   "Hydromorphon",
+   "Citalopram",
+   "Spironolacton",
+   "Clopidogrel",
+   "Amlodipin",
+   "Oxycodon",
+   "Nebivolol",
+   "Sertralin",
+   "Ciprofloxacin",
+   "Ondansetron"
+  ]
+ },
+ "Haus Sonnenhang": {
+  "residents": [
+   "Kaltenbach",
+   "Wróbel",
+   "Erdoğan",
+   "Lindemann",
+   "Popescu",
+   "Quandt",
+   "Sarközi",
+   "Thalheim",
+   "Jablonski",
+   "Moritzen",
+   "Okafor",
+   "Reinwald"
+  ],
+  "plan": [
+   "Lercanidipin",
+   "Mirabegron",
+   "Bupropion",
+   "Trimipramin",
+   "Zopiclon",
+   "Dabigatran",
+   "Pramipexol",
+   "Moxonidin",
+   "Ramipril",
+   "Metformin"
+  ]
+ }
+}

@@ -1,4 +1,8 @@
-sherpa-onnx>=1.12
+sherpa-onnx>=1.12,<1.13
+onnx>=1.17
+onnxruntime>=1.20
+torch>=2.4
+regex>=2024.0
 numpy>=1.26
 scipy>=1.11
 soundfile>=0.12

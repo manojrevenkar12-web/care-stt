@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Text contrast on --paper and --sheet checked to WCAG AA in both themes. */
+:root {
+  --paper: #eef2f0;
+  --sheet: #ffffff;
+  --ink: #18222c;
+  --muted: #4f5b66;
+  --line: #cfd8d4;
+  --right: #1f6b48;
+  --right-wash: #dff0e6;
+  --wrong: #b0251b;
+  --wrong-wash: #fbe5e2;
+  --recovered: #5a3aa6;
+  --recovered-wash: #ece6fa;
+  --confirm: #8c5300;
+  --confirm-wash: #fbefd9;
+  --focus: #2b4fa8;
+  --idle: #dde4e1;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111a1e; --sheet: #172328; --ink: #e5eded; --muted: #a2b1b5; --line: #2c3c42;
+    --right: #74c99d; --right-wash: #16332a; --wrong: #f4877c; --wrong-wash: #3b1c19;
+    --recovered: #bba6f5; --recovered-wash: #2a2244; --confirm: #f1bb64; --confirm-wash: #352812;
+    --focus: #9db6f5; --idle: #24343a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111a1e; --sheet: #172328; --ink: #e5eded; --muted: #a2b1b5; --line: #2c3c42;
+  --right: #74c99d; --right-wash: #16332a; --wrong: #f4877c; --wrong-wash: #3b1c19;
+  --recovered: #bba6f5; --recovered-wash: #2a2244; --confirm: #f1bb64; --confirm-wash: #352812;
+  --focus: #9db6f5; --idle: #24343a; color-scheme: dark;
+}
+body { background: var(--paper); color: var(--ink); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

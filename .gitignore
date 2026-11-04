@@ -7,3 +7,7 @@ ci_out/
 data/recordings/
 *.wav
 *.npy
+console/node_modules/
+console/dist/
+console/test-results/
+.cache/
