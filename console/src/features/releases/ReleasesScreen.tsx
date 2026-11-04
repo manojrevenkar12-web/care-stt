@@ -56,7 +56,6 @@ export function ReleasesScreen() {
                   <option value="all">All conditions</option>
                   <option value="clean">Clean</option>
                   <option value="babble_10">Ward babble, 10 dB</option>
-                  <option value="telephone">Phone line</option>
                 </select>
               </label>
             </div>
@@ -127,7 +126,11 @@ function Examples() {
   if (a.loading || b.loading || a.error || b.error || !a.data || !b.data) return null;
   const byKey = new Map(b.data.items.map((u) => [`${u.id}|${u.voice}`, u]));
   const pairs = a.data.items.map((u) => [u, byKey.get(`${u.id}|${u.voice}`)] as const).filter((p): p is readonly [Utt, Utt] => !!p[1]);
-  const chosen = pairs.filter(([s, f]) => s.hyp !== f.hyp && f.biased.length > 0).slice(0, 3);
+  const seen = new Set<string>();
+  const chosen = pairs
+    .filter(([s, f]) => s.hyp !== f.hyp && f.biased.length > 0)
+    .filter(([s]) => !seen.has(s.ref) && !!seen.add(s.ref))
+    .slice(0, 3);
   if (!chosen.length) return null;
   return (
     <div className="mt-8 grid gap-6">

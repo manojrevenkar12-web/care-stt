@@ -28,7 +28,7 @@ test("the release table compares every system on the facility notes", async ({ p
   await page.goto("/#/releases");
   await expect(page.getByRole("rowheader", { name: /Fine-tuned \+ biasing/ })).toBeVisible();
   await expect(page.getByRole("columnheader", { name: "Residents heard" })).toBeVisible();
-  await page.getByLabel("Audio").selectOption("telephone");
+  await page.getByLabel("Audio").selectOption("babble_10");
   await expect(page.getByRole("rowheader", { name: /Stock Whisper/ }).first()).toBeVisible();
 });
 

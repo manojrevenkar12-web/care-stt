@@ -31,7 +31,7 @@ export function Transcript({ said, hyp, recovered = [], label }: { said: string;
             </span>
           );
         return (
-          <span key={key} className="inline-flex flex-col align-top leading-tight">
+          <span key={key} className="me-2 inline-flex flex-col align-top leading-tight">
             <span className="text-wrong line-through">
               <span className="sr-only">heard </span>
               {p.hyp}

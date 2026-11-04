@@ -28,7 +28,7 @@ type Utt = {
   audio_seconds: number;
 };
 
-const CONDITIONS: [string, string][] = [["", "All audio"], ["clean", "Clean"], ["babble_10", "Ward babble"], ["telephone", "Phone line"]];
+const CONDITIONS: [string, string][] = [["", "All audio"], ["clean", "Clean"], ["babble_10", "Ward babble"]];
 
 export function ListenScreen() {
   const [system, setSystem] = useState("finetuned+bias");
