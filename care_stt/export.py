@@ -70,6 +70,33 @@ def _attend(att: tw.MultiHeadAttention, q: Tensor, k: Tensor, v: Tensor, mask: T
     return att.out((w.softmax(-1) @ v).transpose(1, 2).reshape(b, tq, d))
 
 
+def _fold_weight_transposes(g: onnx.ModelProto) -> None:
+    """Exported without constant folding (so the tied embedding is stored once), every linear layer
+    reads its weight through a Transpose node, which the quantiser cannot see through. Fold those
+    transposes into the weights, except where the weight has other readers (the embedding, which
+    the token lookup also uses): the result is sherpa's layout, int8 linears and one fp32 embedding."""
+    from onnx import numpy_helper
+
+    inits = {i.name: i for i in g.graph.initializer}
+    readers: dict[str, int] = {}
+    for n in g.graph.node:
+        for x in n.input:
+            readers[x] = readers.get(x, 0) + 1
+    keep = []
+    for n in g.graph.node:
+        w = n.input[0] if n.input else None
+        if n.op_type == "Transpose" and w in inits and readers.get(w) == 1:
+            perm = next((list(a.ints) for a in n.attribute if a.name == "perm"), None)
+            arr = numpy_helper.to_array(inits[w])
+            t = numpy_helper.from_array(arr.transpose(perm) if perm else arr.T, name=n.output[0])
+            g.graph.initializer.remove(inits[w])
+            g.graph.initializer.append(t)
+            continue
+        keep.append(n)
+    del g.graph.node[:]
+    g.graph.node.extend(keep)
+
+
 def export(m: tw.Whisper, size: str, out_dir: Path, int8: bool = True) -> dict[str, Path]:
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -95,6 +122,7 @@ def export(m: tw.Whisper, size: str, out_dir: Path, int8: bool = True) -> dict[s
     del g.metadata_props[:]
     for k, v in meta.items():
         g.metadata_props.add(key=k, value=v)
+    _fold_weight_transposes(g)
     onnx.save(g, str(fp32))
     out = {"decoder": fp32}
     if int8:
